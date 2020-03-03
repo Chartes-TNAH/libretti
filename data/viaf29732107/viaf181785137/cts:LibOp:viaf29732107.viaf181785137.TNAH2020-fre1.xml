@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../ODD/out/librettiODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>LE VAISSEAU FANTÔME</title>
-            <author>Richard Wagner</author>
+            <author role="songWriter">Richard Wagner</author>
          </titleStmt>
          <publicationStmt>
             <p>Ecole nationale des Chartes, projet Libretti TNAH, promotion 2019-2020</p>
@@ -13,8 +14,21 @@
             <p>Lien HTTP vers la ressource</p>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc n="CTS">
+         <refsDecl>
+            <cRefPattern matchPattern="" replacementPattern="">
+               <p></p>
+            </cRefPattern>
+            <cRefPattern matchPattern="" replacementPattern="">
+               <p></p>
+            </cRefPattern>
+            <cRefPattern matchPattern="" replacementPattern="">
+               <p></p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
    </teiHeader>
-   <text>
+   <text xml:base="cts:LibOp:viaf29732107.viaf181785137.TNAH2020-fre1.xml" xml:lang="FRE">
       <front>
          <p> Après avoir parlé des décorations et des effets de lumière, le maître passe à ce qui
             concerne le jeu des chanteurs: Je m'adresse donc exclusivement aux acteurs, et parmi eux
