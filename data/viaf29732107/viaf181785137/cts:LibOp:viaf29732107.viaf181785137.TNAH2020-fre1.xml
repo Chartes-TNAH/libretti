@@ -14,21 +14,37 @@
             <p>Lien HTTP vers la ressource</p>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc n="CTS">
-         <refsDecl>
-            <cRefPattern matchPattern="" replacementPattern="">
-               <p></p>
+      <encodingDesc>
+
+         <refsDecl n="CTS">
+
+            <cRefPattern n="speech" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2']/tei:sp[@n='$3'])">
+
+               <p>Ce pointeur extrait les niveaux de citation 1, 2 et 3, soit acte, scène et tour de
+                  parole.</p>
+
             </cRefPattern>
-            <cRefPattern matchPattern="" replacementPattern="">
-               <p></p>
+
+            <cRefPattern n="scene" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2'])">
+
+               <p>Ce poiteur extrait les niveaux de citation 1 et 2, soit les actes et scènes.</p>
+
             </cRefPattern>
-            <cRefPattern matchPattern="" replacementPattern="">
-               <p></p>
+
+            <cRefPattern n="act" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1'])">
+
+               <p>Ce pointeur extrait le premier niveau de citation du texte, soit les actes.</p>
+
             </cRefPattern>
+
          </refsDecl>
+
       </encodingDesc>
    </teiHeader>
-   <text xml:base="cts:LibOp:viaf29732107.viaf181785137.TNAH2020-fre1.xml" xml:lang="FRE">
+   <text>
       <front>
          <p> Après avoir parlé des décorations et des effets de lumière, le maître passe à ce qui
             concerne le jeu des chanteurs: Je m'adresse donc exclusivement aux acteurs, et parmi eux
@@ -235,7 +251,7 @@
             <p>L'action se passe en Norvège, au bord de la mer.</p>
          </set>
       </front>
-      <body>
+      <body n="urn:cts:LibOp:viaf29732107.viaf181785137.TNAH2020-fre1" xml:lang="fre">
          <castList>
             <castItem>LE HOLLANDAIS MM.Bouvet.</castItem>
             <castItem>DALAND, marin Norvégien Belhomme.</castItem>
@@ -247,9 +263,9 @@
          <div type="act" n="1">
             <head>ACTE PREMIER</head>
             <stage>
-               <p>Le Théâtre représente un rivage bordé de rochers à pic.—La mer occupe une
-                  grande partie de la scène.—La vue s'étend au loin sur les flots.—Temps
-                  sombre.—Violent ouragan.</p>
+               <p>Le Théâtre représente un rivage bordé de rochers à pic.—La mer occupe une grande
+                  partie de la scène.—La vue s'étend au loin sur les flots.—Temps sombre.—Violent
+                  ouragan.</p>
             </stage>
             <div type="scene" n="1">
                <head>SCÈNE PREMIÈRE</head>
@@ -317,10 +333,10 @@
                <sp n="1">
                   <speaker>LE PILOTE.</speaker>
                   <stage>
-                     <p>(Le Pilote est seul sur le pont. L'ouragan s'est un peu calmé et ne
-                        reprend plus que par intervalles. Au large les vagues s'élèvent énormes. Le
-                        Pilote fait encore une fois la ronde; puis il s'assied au gouvernail.
-                        Bientôt il sent venir le sommeil, il se secoue et chante.)</p>
+                     <p>(Le Pilote est seul sur le pont. L'ouragan s'est un peu calmé et ne reprend
+                        plus que par intervalles. Au large les vagues s'élèvent énormes. Le Pilote
+                        fait encore une fois la ronde; puis il s'assied au gouvernail. Bientôt il
+                        sent venir le sommeil, il se secoue et chante.)</p>
                   </stage>
                   <l>Malgré vents et tempête,</l>
                   <l>Auprès des miens,</l>
@@ -350,13 +366,13 @@
                   <l>Ce don lui fera plaisir!</l>
                   <l>Ah! ah! la! la! ah!</l>
                   <stage>
-                     <p>(Il lutte contre la fatigue et finit par s'endormir. La tempête
-                        recommence. Le temps s'assombrit. Dans le lointain se montre le vaisseau
-                        fantôme avec ses voiles d'un rouge de sang et ses mâts noirs. Il s'approche
-                        avec rapidité du rivage à côté du navire norvégien. L'ancre tombe avec un
-                        bruit terrible. Le Pilote de Daland s'éveille en sursaut. Sans quitter sa
-                        place, il jette un coup d'œil sur le gouvernail, et, assuré que tout est
-                        bien, il murmure quelques mots de sa chanson.)</p>
+                     <p>(Il lutte contre la fatigue et finit par s'endormir. La tempête recommence.
+                        Le temps s'assombrit. Dans le lointain se montre le vaisseau fantôme avec
+                        ses voiles d'un rouge de sang et ses mâts noirs. Il s'approche avec rapidité
+                        du rivage à côté du navire norvégien. L'ancre tombe avec un bruit terrible.
+                        Le Pilote de Daland s'éveille en sursaut. Sans quitter sa place, il jette un
+                        coup d'œil sur le gouvernail, et, assuré que tout est bien, il murmure
+                        quelques mots de sa chanson.)</p>
                   </stage>
                   <l>Sans un bon vent du sud, jamais...</l>
                   <stage>
@@ -370,8 +386,8 @@
                   <p>LE HOLLANDAIS, LE PILOTE, endormi.</p>
                </stage>
                <stage>
-                  <p>(Sans le moindre bruit l'équipage fantastique du vaisseau fantôme cargue
-                     ses voiles. Le Hollandais descend à terre.)</p>
+                  <p>(Sans le moindre bruit l'équipage fantastique du vaisseau fantôme cargue ses
+                     voiles. Le Hollandais descend à terre.)</p>
                </stage>
                <sp n="1">
                   <speaker>LE HOLLANDAIS.</speaker>
@@ -766,8 +782,8 @@
                   <p>SENTA, MARIE, JEUNES FILLES.</p>
                </stage>
                <stage>
-                  <p>(Marie et les Jeunes Filles filent, assises autour de la cheminée. Senta,
-                     au fond d'un grand fauteuil les bras croisés, semble absorbée dans la
+                  <p>(Marie et les Jeunes Filles filent, assises autour de la cheminée. Senta, au
+                     fond d'un grand fauteuil les bras croisés, semble absorbée dans la
                      contemplation du portrait.)</p>
                </stage>
                <sp n="1">
@@ -948,8 +964,8 @@
                   <l>Le ciel j'espère</l>
                   <l>Te le fera trouver enfin!</l>
                   <stage>
-                     <p>(Vers la fin Senta se tourne vers le portrait. Les jeunes filles
-                        écoutent avec intérêt. Marie a cessé de filer.)</p>
+                     <p>(Vers la fin Senta se tourne vers le portrait. Les jeunes filles écoutent
+                        avec intérêt. Marie a cessé de filer.)</p>
                   </stage>
                </sp>
                <sp n="21">
@@ -982,8 +998,8 @@
                <sp n="23">
                   <speaker>SENTA.</speaker>
                   <stage>
-                     <p>(Après que les Jeunes Filles ont répété le refrain, elle continue avec
-                        une émotion croissante.)</p>
+                     <p>(Après que les Jeunes Filles ont répété le refrain, elle continue avec une
+                        émotion croissante.)</p>
                   </stage>
                </sp>
                <sp n="24">
@@ -1224,10 +1240,9 @@
                   <l>Écoute-moi, Senta!</l>
                   <l>Un rêve ici t'éclairera.</l>
                   <stage>
-                     <p>(Senta s'assied épuisée dans le fauteuil. Au commencement du récit
-                        d'Érik elle semble tomber dans un sommeil magnétique et voir à son tour tout
-                        ce qu'on lui raconte. Érik est debout auprès d'elle, appuyé sur le
-                        siége.)</p>
+                     <p>(Senta s'assied épuisée dans le fauteuil. Au commencement du récit d'Érik
+                        elle semble tomber dans un sommeil magnétique et voir à son tour tout ce
+                        qu'on lui raconte. Érik est debout auprès d'elle, appuyé sur le siége.)</p>
                   </stage>
                   <l>Sur le sommet d'un roc sauvage</l>
                   <l>Je contemplais le flot bruyant,</l>
@@ -1300,12 +1315,11 @@
                   <p>SENTA, DALAND, le HOLLANDAIS.</p>
                </stage>
                <stage>
-                  <p>La porte s'ouvre. Daland et le Hollandais entrent. Aussitôt que le
-                     Hollandais paraît, le regard de Senta passe du portrait sur lui. Elle pousse un
-                     cri de surprise et demeure immobile, comme fascinée, sans quitter l'étranger
-                     des yeux.—Le Hollandais s'avance sur le devant de la scène. Daland s'est arrêté
-                     à la porte et y reste comme attendant que Senta vienne au-devant de
-                  lui.</p>
+                  <p>La porte s'ouvre. Daland et le Hollandais entrent. Aussitôt que le Hollandais
+                     paraît, le regard de Senta passe du portrait sur lui. Elle pousse un cri de
+                     surprise et demeure immobile, comme fascinée, sans quitter l'étranger des
+                     yeux.—Le Hollandais s'avance sur le devant de la scène. Daland s'est arrêté à
+                     la porte et y reste comme attendant que Senta vienne au-devant de lui.</p>
                </stage>
                <sp n="1">
                   <speaker>le HOLLANDAIS.</speaker>
@@ -1350,17 +1364,16 @@
                   <l>Tends-lui la main, qu'il soit, si ton cœur le désire,</l>
                   <l>Ton fiancé ce soir, et demain ton époux.</l>
                   <stage>
-                     <p>(Senta tressaille, mais reste calme. Daland prend une parure et la
-                        montre à sa fille).</p>
+                     <p>(Senta tressaille, mais reste calme. Daland prend une parure et la montre à
+                        sa fille).</p>
                   </stage>
                   <l>Vois ces bijoux, chaîne brillante;</l>
                   <l>Il garde encor plus beaux présents.</l>
                   <l>N'est-il donc là rien qui te tente?</l>
                   <l>Tout est à toi, si tu consens.</l>
                   <stage>
-                     <p>(Senta, sans paraître entendre, demeure les yeux fixés sur le
-                        Hollandais. Celui-ci, de son côté, la contemple sans écouter
-                     Daland.)</p>
+                     <p>(Senta, sans paraître entendre, demeure les yeux fixés sur le Hollandais.
+                        Celui-ci, de son côté, la contemple sans écouter Daland.)</p>
                   </stage>
                   <l>Mais, pas un mot! je suis de trop pour eux.</l>
                   <l>Allons! laissons-les seuls, cela vaut mieux.</l>
@@ -1378,9 +1391,8 @@
                   <l>Restez donc seuls, moi je vous laisse.</l>
                   <l>Son front est pur, son cœur constant.</l>
                   <stage>
-                     <p>(Daland s'éloigne lentement en les considérant tous deux avec
-                        complaisance. Le Hollandais et Senta restent seuls. Ils demeurent
-                        immobiles.)</p>
+                     <p>(Daland s'éloigne lentement en les considérant tous deux avec complaisance.
+                        Le Hollandais et Senta restent seuls. Ils demeurent immobiles.)</p>
                   </stage>
                </sp>
             </div>
@@ -1774,12 +1786,12 @@
                   <p>LES MARINS NORVÉGIENS, LES MARINS HOLLANDAIS.</p>
                </stage>
                <stage>
-                  <p>L'équipage du Vaisseau fantôme paraît sur le pont du navire. La mer, qui
-                     reste calme partout ailleurs, s'agite soudainement autour du Vaisseau fantôme.
-                     Une lueur bleuâtre et sinistre flamboie sur le navire comme un fanal de garde.
-                     Un vent de tempête se met à siffler dans les cordages. L'équipage qui,
-                     auparavant, n'avait pas donné signe de vie, commence à s'animer et exécute avec
-                     rapidité les diverses manœuvres.</p>
+                  <p>L'équipage du Vaisseau fantôme paraît sur le pont du navire. La mer, qui reste
+                     calme partout ailleurs, s'agite soudainement autour du Vaisseau fantôme. Une
+                     lueur bleuâtre et sinistre flamboie sur le navire comme un fanal de garde. Un
+                     vent de tempête se met à siffler dans les cordages. L'équipage qui, auparavant,
+                     n'avait pas donné signe de vie, commence à s'animer et exécute avec rapidité
+                     les diverses manœuvres.</p>
                </stage>
                <sp n="1">
                   <speaker>LES MARINS DU VAISSEAU FANTÔME.</speaker>
@@ -1806,13 +1818,13 @@
                   <l>Nul orage n'y mordra!</l>
                   <l>Ah! Hiva! ah!</l>
                   <l>Rien n'y fera!</l>
-                  <l>Les matelots norvégiens observent d'abord avec surprise, ensuite avec
-                     épouvante ce qui se passe à bord du Vaisseau fantôme.</l>
-                  <l>Pendant le chant des Hollandais leur navire est ballotte par les flots.
-                     Un vent horrible se fait sentir à travers les cordages et les voiles qui
-                     s'agitent avec un bruit lugubre et menaçant.</l>
-                  <l>Par un contraste surnaturel le calme le plus parfait règne dans l'air
-                     et sur la mer, partout, excepté autour du Vaisseau fantôme.</l>
+                  <l>Les matelots norvégiens observent d'abord avec surprise, ensuite avec épouvante
+                     ce qui se passe à bord du Vaisseau fantôme.</l>
+                  <l>Pendant le chant des Hollandais leur navire est ballotte par les flots. Un vent
+                     horrible se fait sentir à travers les cordages et les voiles qui s'agitent avec
+                     un bruit lugubre et menaçant.</l>
+                  <l>Par un contraste surnaturel le calme le plus parfait règne dans l'air et sur la
+                     mer, partout, excepté autour du Vaisseau fantôme.</l>
                </sp>
                <sp n="2">
                   <speaker>LES MATELOTS NORVÉGIENS.</speaker>
@@ -1835,10 +1847,10 @@
                   <l>Nul orage n'y mordra.</l>
                   <l>Non! rien n'y fera,</l>
                   <l>Ah! Hiva!</l>
-                  <l>Le chant des Hollandais est devenu de plus en plus sauvage, les
-                     Norvégiens cherchent vainement à le dominer par leur chanson. Le tumulte de la
-                     mer et le mugissement d'une tempête surnaturelle les réduisent an silence. Au
-                     comble de l'épouvante ils s'enfuient en abandonnant le pont de leur navire. Les
+                  <l>Le chant des Hollandais est devenu de plus en plus sauvage, les Norvégiens
+                     cherchent vainement à le dominer par leur chanson. Le tumulte de la mer et le
+                     mugissement d'une tempête surnaturelle les réduisent an silence. Au comble de
+                     l'épouvante ils s'enfuient en abandonnant le pont de leur navire. Les
                      Hollandais qui les voient fuir, poussent un cri strident de moquerie. Tout à
                      coup un silence profond règne de nouveau sur le Vaisseau fantôme, la mer et la
                      tempête se calment également.</l>
@@ -1850,8 +1862,7 @@
                   <p>SENTA, ÉRIK.</p>
                </stage>
                <stage>
-                  <p>Senta sort tout émue de la maison. Érik la suit dans une vive
-                     agitation.</p>
+                  <p>Senta sort tout émue de la maison. Érik la suit dans une vive agitation.</p>
                </stage>
                <sp n="1">
                   <speaker>ÉRIK.</speaker>
@@ -1998,8 +2009,8 @@
 
                <stage>Les Mêmes, DALAND, MARIE, les Jeunes Filles, les Matelots.</stage>
                <stage>
-                  <p>(Aux cris d'Érik sont accourus Daland, Marie et les Jeunes Filles, les
-                     matelots sont descendus du navire.)</p>
+                  <p>(Aux cris d'Érik sont accourus Daland, Marie et les Jeunes Filles, les matelots
+                     sont descendus du navire.)</p>
                </stage>
                <sp n="1">
                   <speaker>DALAND.</speaker>
@@ -2011,8 +2022,7 @@
                   <l>Tu ne sais rien! mon sort t'est inconnu!</l>
                   <stage>
                      <p>(Il montre son vaisseau, dont les voiles rouges sont déployées et dont
-                        l'équipage est en train d'appareiller avec une agitation
-                     effroyable.)</p>
+                        l'équipage est en train d'appareiller avec une agitation effroyable.)</p>
                   </stage>
                   <l>Demande aux flots, d'un pôle à l'autre,</l>
                   <l>Au matelot vieilli qui partout navigua,</l>
@@ -2042,10 +2052,9 @@
                   <l>Gloire à ton ange! Gloire à sa loi!</l>
                   <l>Jusqu'à la mort je suis à toi!...</l>
                   <stage>
-                     <p>(Elle se jette dans la mer. Au même moment le navire du Hollandais
-                        s'abîme avec son équipage au milieu des flots. Au fond on voit s'élever
-                        au-dessus de la mer le Hollandais et Senta transfigurés. Il la tient
-                        embrassée.)</p>
+                     <p>(Elle se jette dans la mer. Au même moment le navire du Hollandais s'abîme
+                        avec son équipage au milieu des flots. Au fond on voit s'élever au-dessus de
+                        la mer le Hollandais et Senta transfigurés. Il la tient embrassée.)</p>
                   </stage>
                </sp>
             </div>
