@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../ODD/out/librettiODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -14,33 +15,33 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         
+
          <refsDecl n="CTS">
-            
+
             <cRefPattern n="speech" matchPattern="(\w+).(\w+).(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2']/tei:sp[@n='$3'])">
-               
+
                <p>Ce pointeur extrait les niveaux de citation 1, 2 et 3, soit acte, scène et tour de
                   parole.</p>
-               
+
             </cRefPattern>
-            
+
             <cRefPattern n="scene" matchPattern="(\w+).(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2'])">
-               
+
                <p>Ce pointeur extrait les niveaux de citation 1 et 2, soit les actes et scènes.</p>
-               
+
             </cRefPattern>
-            
+
             <cRefPattern n="act" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1'])">
-               
+
                <p>Ce pointeur extrait le premier niveau de citation du texte, soit les actes.</p>
-               
+
             </cRefPattern>
-            
+
          </refsDecl>
-         
+
       </encodingDesc>
    </teiHeader>
    <text>
@@ -250,7 +251,7 @@
             <p>L'action se passe en Norvège, au bord de la mer.</p>
          </set>
       </front>
-      <body>
+      <body n="urn:cts:libOp:viaf29732107.viaf181785137.TNAH2020-fre1" xml:lang="fre">
          <castList>
             <castItem>LE HOLLANDAIS MM.Bouvet.</castItem>
             <castItem>DALAND, marin Norvégien Belhomme.</castItem>
@@ -2019,13 +2020,13 @@
                   <l>Non! rien n'y fera,</l>
                   <l>Ah! Hiva!</l>
                   <stage>
-                     <p>Le chant des Hollandais est devenu de plus en plus sauvage, les
-                        Norvégiens cherchent vainement à le dominer par leur chanson. Le tumulte de
-                        la mer et le mugissement d'une tempête surnaturelle les réduisent an
-                        silence. Au comble de l'épouvante ils s'enfuient en abandonnant le pont de
-                        leur navire. Les Hollandais qui les voient fuir, poussent un cri strident de
-                        moquerie. Tout à coup un silence profond règne de nouveau sur le Vaisseau
-                        fantôme, la mer et la tempête se calment également.</p>
+                     <p>Le chant des Hollandais est devenu de plus en plus sauvage, les Norvégiens
+                        cherchent vainement à le dominer par leur chanson. Le tumulte de la mer et
+                        le mugissement d'une tempête surnaturelle les réduisent an silence. Au
+                        comble de l'épouvante ils s'enfuient en abandonnant le pont de leur navire.
+                        Les Hollandais qui les voient fuir, poussent un cri strident de moquerie.
+                        Tout à coup un silence profond règne de nouveau sur le Vaisseau fantôme, la
+                        mer et la tempête se calment également.</p>
                   </stage>
                </sp>
             </div>
@@ -2228,7 +2229,6 @@
             </div>
             <div type="scene" n="7">
                <head>SCÈNE VII</head>
-
                <stage>Les Mêmes, DALAND, MARIE, les Jeunes Filles, les Matelots.</stage>
                <stage>
                   <p>(Aux cris d'Érik sont accourus Daland, Marie et les Jeunes Filles, les matelots
@@ -2281,8 +2281,8 @@
                      <p>(Elle se jette dans la mer. Au même moment le navire du Hollandais s'abîme
                         avec son équipage au milieu des flots. Au fond on voit s'élever au-dessus de
                         la mer le Hollandais et Senta transfigurés. Il la tient embrassée.)</p>
+                     <p>FIN</p>
                   </stage>
-                  <stage>FIN</stage>
                </sp>
             </div>
          </div>
