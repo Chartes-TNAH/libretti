@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../../../ODD/out/librettiODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -549,7 +548,6 @@
             <div type="scene" n="4">
                <head>Scène IV</head>
                <stage>POPOLANI, puis LE COMTE.</stage>
-
                <sp n="1">
                   <speaker>POPOLANI,</speaker>
                   <stage>entrant par la droite, tout rêveur.</stage>
@@ -965,7 +963,6 @@
                   <stage>(Pendant cette reprise, on apporte une table et un escabeau que l’on place
                      près de la tonnelle. — Le greffier s’assied, dispose ses papiers et se prépare
                      à écrire.)</stage>
-
                </sp>
                <sp n="5">
                   <speaker>POPOLANI.</speaker>
@@ -1121,21 +1118,18 @@
                   <l>N’aie pas peur, mon petit ami… et prends un de ces petits papiers dans cette
                      corbeille.</l>
                   <stage>Il retourne à droite.</stage>
-
                </sp>
                <sp n="26">
                   <speaker>L’ENFANT.</speaker>
                   <l>Voilà, m’sieur, voilà !</l>
                   <stage>Il prend un papier, le donne à Popolani et retourne près de sa
                      mère.</stage>
-
                </sp>
                <sp n="27">
                   <speaker>POPOLANI,</speaker>
                   <stage>prenant le papier et criant.</stage>
                   <l>Boulotte !</l>
                   <stage>On enlève la table et l’escabeau.</stage>
-
                </sp>
                <sp n="28">
                   <speaker>CHŒUR.</speaker>
@@ -1147,7 +1141,6 @@
                   <l>Et nous devons nous incliner.</l>
                   <stage>(Pendant ce chœur, le comte Oscar a examiné la corbeille qu’il tient à la
                      main : il donne les marques d’une violente émotion.)</stage>
-
                </sp>
                <sp n="29">
                   <speaker>LE COMTE.</speaker>
@@ -1458,7 +1451,6 @@
                   <stage>Il remonte et va faire un signe à gauche : entrent alors quatre pages,
                      suivis de quatre hommes portant un palanquin ; ils le déposent au milieu du
                      théâtre.</stage>
-
                </sp>
                <sp n="20">
                   <speaker>CHŒUR DESPORTEURS et DES PAGES.</speaker>
@@ -1478,7 +1470,6 @@
                      Barbe-Bleue, suivi de ses hommes d’armes, paraît sur la montagne. Les rideaux
                      du palanquin sont ouverts : Barbe-Bleue aperçoit la princesse Hermia ; il est
                      saisi d’une violente admiration.)</stage>
-
                </sp>
                <sp n="22">
                   <speaker>REPRISE DU CHŒUR.</speaker>
@@ -1501,9 +1492,7 @@
                </sp>
                <sp n="2">
                   <lg>
-                     <head>COUPLETS.</head>    
-                     <lg> 
-                  <head>I</head>
+                     <head>COUPLET I</head>
                   <l>Ma première femme est morte,</l>
                   <l>Et que le diable m’emporte,</l>
                   <l>Si j’ai jamais su comment !</l>
@@ -1518,7 +1507,6 @@
                   <l>L’ont cueillie eu un moment…</l>
                   <l>Je suis Barbe-Bleue, ô gué !</l>
                   <l>Jamais veuf ne fut plus gai !</l>
-                     </lg>
                   </lg>
                </sp>
                <sp n="3">
@@ -1529,8 +1517,7 @@
                <sp n="4">
                   <speaker>BARBE-BLEUE.</speaker>
                   <lg>
-                     <lg>
-                  <head>II</head>
+                     <head>COUPLET II</head>
                   <l>Maintenant que j’ai dit comme,</l>
                   <l>L’on m’appelle et l’on me nomme,</l>
                   <l>Chacun comprend à l’instant,</l>
@@ -1543,8 +1530,7 @@
                   <l>Je le sais, et je crois même</l>
                   <l>Que déjà de la septième</l>
                   <l>Je m’occupe vaguement…</l>
-                  <l>Je suis Barbe-Bleue, ô gué ? etc., etc.</l>
-                     </lg>
+                  <l>Je suis Barbe-Bleue, ô gué ? etc., etc.</l>   
                   </lg>
                </sp>        
                <sp n="5">
@@ -1727,7 +1713,6 @@
                   <speaker>LE CHŒUR.</speaker>
                   <l>C’est un Rubens !</l>
                </sp>
-
                <sp n="4">
                   <speaker>BARBE-BLEUE</speaker>
                   <lg>
@@ -2149,7 +2134,6 @@
                            ancêtres ; Bobèche frappe deux coups dans sa main, ils se
                            relèvent.)</stage> A huit heures, le dîner ;… à minuit, le mariage du
                         prince et de la princesse. — Cantate n° 22. »</p>
-
                   </sp>
                   <sp n="14">
                      <speaker>BOBÈCHE,</speaker>
@@ -2169,7 +2153,7 @@
                      <p>Je n’ai pas besoin de vous rappeler, messieurs, que pour ces diverses
                         cérémonies, une mise soignée est de rigueur… Et maintenant allez, messieurs.
                         Vous, Alvarez, restez…</p>
-                     <stage>Il donne le signal du départ en frappant deux coups dans ses mains.</l>
+                     <stage>Il donne le signal du départ en frappant deux coups dans ses mains.</stage>
                   </sp>
                   <sp n="17">
                      <speaker>REPRISE DU CHŒUR.</speaker>
@@ -2696,14 +2680,12 @@
                      <l>Et puis… en voilà assez !… <stage>(Musique au dehors.)</stage> J’entends la
                         cantate… c’est le jeune prince !</l>
                      <stage>Il remonte, Clémentine et la princesse passent à droite.</stage>
-
                   </sp>
                   <sp n="24">
                      <speaker>LA PRINCESSE,</speaker>
                      <stage>brisée.</stage>
                      <l>Oh ! maman ! maman !…</l>
                      <stage>Elle se jette dans les bras de sa mère.</stage>
-
                   </sp>
                   <sp n="25">
                      <speaker>CLÉMENTINE,</speaker>
@@ -3222,7 +3204,6 @@
                      <l>On parl’bien, quand on s’applique…</l>
                      <l>Salut à tout’la boutique !</l>
                      <stage>(Elle fait des révérences.)</stage>
-
                   </sp>
                   <sp n="20">
                      <speaker>LE CHŒUR.</speaker>
@@ -3303,7 +3284,6 @@
                      <p>Ma bonne noblesse du midi !</p>
                      <stage>(Tous les seigneurs et dames viennent, à tour de rôle, baiser la main de
                         Bobèche.)</stage>
-
                   </sp>
                   <sp n="36">
                      <speaker>LE CHŒUR.</speaker>
@@ -3332,7 +3312,6 @@
                      <l>Mais, nom d’une pomme !</l>
                      <l>C’est mon galopin !</l>
                      <stage>(Elle va pour s’élancer vers Saphir, Barbe-Bleue la retient.)</stage>
-
                   </sp>
                   <sp n="40">
                      <speaker>BOBÈCHE,</speaker>
@@ -3403,7 +3382,6 @@
                      <l>C’est lui !</l>
                      <stage>Ce qui précède s’est dit sur la musique de scène ; le finale n’a pas été
                         interrompu ; ici on recommence à chanter.</stage>
-
                   </sp>
                   <sp n="53">
                      <speaker>BARBE-BLEUE,</speaker>
