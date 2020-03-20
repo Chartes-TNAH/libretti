@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Barbe-Bleue</title>
-            <author role="songWritter">Jacques Offenbach</author>
+            <author role="songWriter">Jacques Offenbach</author>
             <author role="librettist">Henri Meilhac</author>
             <author role="librettist">Ludovic Halévy</author>
          </titleStmt>
@@ -40,8 +40,9 @@
    </teiHeader>
    <text>
       <front>
-         <p>OPÉRA-BOUFFE EN TROIS ACTES Représenté pour la première fois, à Paris, sur le Théâtre
-            des Variétés, le 5 février 1866. Musique de Jacques Offenbach.</p>
+         <p>OPÉRA-BOUFFE EN TROIS ACTES</p>
+         <p>Représenté pour la première fois, à Paris, sur le Théâtre des Variétés, le 5 février 1866.</p>
+         <p>Musique de Jacques Offenbach.</p>
       </front>
       <body n="urn:cts:libOp:viaf10034167.viaf185075801.TNAH2020-fre1" xml:lang="fre">
          <castList>
@@ -62,8 +63,8 @@
             <castItem>ISAURE, Gabrielle.</castItem>
             <castItem>BLANCHE, Legrand.</castItem>
             <castItem>ÉLÉONORE, Martin.</castItem>
-            <castItem>Deux Paysannes Léonie.Béatrix.</castItem>
-            <castItem>Deux Pages Taillefer.Jenny.</castItem>
+            <castItem>Deux Paysannes Léonie. Béatrix.</castItem>
+            <castItem>Deux Pages Taillefer. Jenny.</castItem>
             <castItem>Un Enfant Mathilde.</castItem>
             <castItem>Paysans et Paysannes.</castItem>
             <castItem>Hommes d’armes de Barbe-Bleue,</castItem>
@@ -88,8 +89,7 @@
                <sp n="1">
                   <speaker>SAPHIR,</speaker>
                   <stage>seul.</stage>
-                  <lg>
-                     <head>RÉCITATIF.</head>
+                  <stage>RÉCITATIF.</stage>
                      <l>Dans la nature tout s’éveille,</l>
                      <l>Et le soleil sort de son lit :</l>
                      <l>On entend bourdonner l’abeille,</l>
@@ -102,22 +102,19 @@
                            entrant, — pose à la Watteau. — Il prélude : sa petite flûte rend le son
                            d’un trombone ; il s’arrête stupéfait, puis il en prend son parti
                            :)</stage> Elle ne m’en entendra que mieux…</l>
-                  </lg>
                   <stage>(Et il continue… Entre Fleurette attirée par la mélodie ; poses gracieuses,
                      sorte de pas de deux, — le berger s’éloignant, la bergère le poursuivant
                      gentiment : — puis le berger s’arrête, la bergère le rejoint, et tous deux
                      s’avancent sur le devant de la scène.)</stage>
-               </sp>
+               </sp> 
+               <stage>DUO.</stage>
                <sp n="2">
                   <speaker>ENSEMBLE.</speaker>
-                  <lg>
-                     <head>DUO.</head>
                      <l>Or, depuis la rose nouvelle,</l>
                      <l>C’est comme ça tous les matins :</l>
-                     <l>{ Avec ma flûte je l’appelle,</l>
+                     <l>Avec ma flûte je l’appelle,</l>
                      <l>Avec cette flûte il m’appelle,</l>
                      <l>Et nous errons dans ces jardins.</l>
-                  </lg>
                </sp>
                <sp n="3">
                   <speaker>FLEURETTE.</speaker>
@@ -372,7 +369,9 @@
             </div>
             <div type="scene" n="2">
                <head>Scène II</head>
-               <stage>BOULOTTE, seule.</stage>
+               <sp n="1">
+                  <speaker>BOULOTTE,</speaker>
+                  <stage>seule.</stage>
                <lg>
                   <head>COUPLETS</head>
                   <lg>
@@ -401,6 +400,7 @@
                         m’entendre… attends !… attends !…</l>
                   </lg>
                </lg>
+               </sp>
                <stage>Elle ramasse une pierre et la jette dans la fenêtre de Saphir ; on entend un
                   bruit de vitre brisée : Saphir paraît furieux à sa fenêtre.</stage>
 
@@ -517,7 +517,7 @@
                </sp>
                <sp n="24">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> menaçante.</stage>
+                  <stage>menaçante.</stage>
                   <l>Ne fais pas de manières !… Tu ne veux pas m’embrasser ?… <stage>(Retroussant
                         ses manches.)</stage> Tu ne veux pas ?… Alors, tu ne veux pas ?…</l>
                   <stage>Frayeur de Saphir. Boulotte marche vers lui avec une résolution froide.
@@ -827,7 +827,6 @@
                   <stage>Rentre, par la gauche, Saphir, essoufflé, que poursuit toujours Boulotte ;
                      il arrive à sa cabane et s’enferme ; Boulotte arrive à son tour et trouve la
                      porte fermée.</stage>
-
                </sp>
                <sp n="58">
                   <speaker>BOULOTTE.</speaker>
@@ -987,7 +986,7 @@
                </sp>
                <sp n="7">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> se levant et venant toute rêveuse au milieu. — À part.</stage>
+                  <stage>se levant et venant toute rêveuse au milieu. — À part.</stage>
                   <l>Faut-y aller ? on faut-y pas y aller ?</l>
                   <l>V’là c’que j’me d’mande en mon particulier.</l>
                   <l>Ah ! bah ! qui n’risque rien n’a rien !</l>
@@ -1094,7 +1093,7 @@
                </sp>
                <sp n="20">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> s’avançant.</stage>
+                  <stage>s’avançant.</stage>
                   <l>Voilà !</l>
                </sp>
                <sp n="21">
@@ -1112,13 +1111,13 @@
                </sp>
                <sp n="24">
                   <speaker>UNE FEMME,</speaker>
-                  <stage> poussant l’enfant.</stage>
+                  <stage>poussant l’enfant.</stage>
                   <l>Va, mon enfant, va. <stage>(Avec émotion.)</stage> Et tâche de faire gagner ta
                      mère.</l>
                </sp>
                <sp n="25">
                   <speaker>POPOLANI,</speaker>
-                  <stage> conduisant l’enfant près du comte.</stage>
+                  <stage>conduisant l’enfant près du comte.</stage>
                   <l>N’aie pas peur, mon petit ami… et prends un de ces petits papiers dans cette
                      corbeille.</l>
                   <stage>Il retourne à droite.</stage>
@@ -1454,7 +1453,7 @@
                </sp>
                <sp n="19">
                   <speaker>LE COMTE,</speaker>
-                  <stage> s’inclinant.</stage>
+                  <stage>s’inclinant.</stage>
                   <l>Princesse !…</l>
                   <stage>Il remonte et va faire un signe à gauche : entrent alors quatre pages,
                      suivis de quatre hommes portant un palanquin ; ils le déposent au milieu du
@@ -1493,7 +1492,6 @@
                <stage>BARBE-BLEUE, Hommes d’armes.</stage>
                <stage>Quand le cortège a disparu, Barbe-Bleue descend, suivi de ses hommes
                   d’armes.</stage>
-
                <sp n="1">
                   <speaker>BARBE-BLEUE</speaker>
                   <l>Encore une, soldats, belle parmi les belles !</l>
@@ -1502,8 +1500,10 @@
                   <l>Arrachent de mes bras !</l>
                </sp>
                <sp n="2">
-                  <speaker>COUPLETS.</speaker>
-                  <l>I</l>
+                  <lg>
+                     <head>COUPLETS.</head>    
+                     <lg> 
+                  <head>I</head>
                   <l>Ma première femme est morte,</l>
                   <l>Et que le diable m’emporte,</l>
                   <l>Si j’ai jamais su comment !</l>
@@ -1518,6 +1518,8 @@
                   <l>L’ont cueillie eu un moment…</l>
                   <l>Je suis Barbe-Bleue, ô gué !</l>
                   <l>Jamais veuf ne fut plus gai !</l>
+                     </lg>
+                  </lg>
                </sp>
                <sp n="3">
                   <speaker>LES SOLDATS.</speaker>
@@ -1526,7 +1528,9 @@
                </sp>
                <sp n="4">
                   <speaker>BARBE-BLEUE.</speaker>
-                  <l>II</l>
+                  <lg>
+                     <lg>
+                  <head>II</head>
                   <l>Maintenant que j’ai dit comme,</l>
                   <l>L’on m’appelle et l’on me nomme,</l>
                   <l>Chacun comprend à l’instant,</l>
@@ -1540,7 +1544,9 @@
                   <l>Que déjà de la septième</l>
                   <l>Je m’occupe vaguement…</l>
                   <l>Je suis Barbe-Bleue, ô gué ? etc., etc.</l>
-               </sp>
+                     </lg>
+                  </lg>
+               </sp>        
                <sp n="5">
                   <speaker>LE CHŒUR.</speaker>
                   <l>Il est Barbe-Bleue, etc.</l>
@@ -1557,7 +1563,7 @@
                </sp>
                <sp n="2">
                   <speaker>POPOLANI,</speaker>
-                  <stage> s’inclinant.</stage>
+                  <stage>s’inclinant.</stage>
                   <l>Monseigneur…</l>
                </sp>
                <sp n="3">
@@ -1897,8 +1903,7 @@
                </sp>
                <sp n="28">
                   <speaker>BARBE-BLEUE et LE CHŒUR.</speaker>
-                  <lg>
-                     <head>REPRISE.</head>
+                  <stage>REPRISE.</stage>
                      <l>Allons, marchons !</l>
                      <l>Allons, partons ! etc.</l>
                      <l>D’abord au pas,</l>
@@ -1911,7 +1916,6 @@
                      <l>Au grand galop !</l>
                      <l>Hop là ! hop là !</l>
                      <l>Tra la la la.</l>
-                  </lg>
                </sp>
                <sp n="29">
                   <speaker>POPOLANI.</speaker>
@@ -2047,13 +2051,12 @@
                   </sp>
                   <sp n="11">
                      <speaker>UN PAGE,</speaker>
-                     <stage> entrant par la droite et annonçant.</stage>
+                     <stage>entrant par la droite et annonçant.</stage>
                      <l>Le roi !</l>
                      <stage>Les courtisans, qui sont en cercle autour du comte, passent à gauche ;
                         tous se rangent avec empressement sur deux lignes, Alvarez toujours le
                         premier. Le roi Bobèche entre par la droite, les courtisans, ainsi que le
                         comte Oscar, s’inclinent profondément.</stage>
-
                   </sp>
                   <sp n="12">
                      <speaker>LE COMTE.</speaker>
@@ -2088,7 +2091,7 @@
                   </sp>
                   <sp n="3">
                      <speaker>ALVAREZ,</speaker>
-                     <stage> continuant l’air.</stage>
+                     <stage>continuant l’air.</stage>
                      <l>« Ah ! quel beau jour !… »</l>
                   </sp>
                   <sp n="4">
@@ -2163,17 +2166,17 @@
                   <sp n="16">
                      <speaker>BOBÈCHE,</speaker>
                      <stage>aux courtisans.</stage>
-                     <l>Je n’ai pas besoin de vous rappeler, messieurs, que pour ces diverses
+                     <p>Je n’ai pas besoin de vous rappeler, messieurs, que pour ces diverses
                         cérémonies, une mise soignée est de rigueur… Et maintenant allez, messieurs.
-                        Vous, Alvarez, restez…</l>
-                     <l>Il donne le signal du départ en frappant deux coups dans ses mains.</l>
+                        Vous, Alvarez, restez…</p>
+                     <stage>Il donne le signal du départ en frappant deux coups dans ses mains.</l>
                   </sp>
                   <sp n="17">
                      <speaker>REPRISE DU CHŒUR.</speaker>
                      <l>Il faut, s’il veut arriver,</l>
                      <l>Qu’un bon courtisan s’incline…, etc.</l>
-                     <l>Les courtisans, moins Alvarez, sortent par le fond, les deux pages rentrent
-                        à droite.</l>
+                     <stage>Les courtisans, moins Alvarez, sortent par le fond, les deux pages rentrent
+                        à droite.</stage>
                   </sp>
                </div>
                <div type="scene" n="3">
@@ -2285,13 +2288,13 @@
                   </sp>
                   <sp n="11">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> s’asseyant près du guéridon et s’amusant à faire tourner le
+                     <stage>s’asseyant près du guéridon et s’amusant à faire tourner le
                         globe.</stage>
                      <l>Moi aussi, monsieur, et j’ai une opinion.</l>
                   </sp>
                   <sp n="12">
                      <speaker>LE COMTE,</speaker>
-                     <stage> s’approchant.</stage>
+                     <stage>s’approchant.</stage>
                      <l>Je ne la connais pas, sire, mais je la partage entièrement.</l>
                   </sp>
                   <sp n="13">
@@ -2395,13 +2398,13 @@
                      page.</stage>
                   <sp n="1">
                      <speaker>UN PAGE,</speaker>
-                     <stage> entrant par la gauche et annonçant.</stage>
+                     <stage>entrant par la gauche et annonçant.</stage>
                      <l>La reine !</l>
                      <l>Clémentine paraît, un deuxième page la suit.</l>
                   </sp>
                   <sp n="2">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> regardant entrer Clémentine, à part.</stage>
+                     <stage>regardant entrer Clémentine, à part.</stage>
                      <l>Tout comme Isaure de Valbon, la reine… avec une nuance cependant… c’est une
                         femme très désagréable, mais c’est toujours la même chose. <stage>(Au
                            comte.)</stage> Allez, comte Oscar, et n’oubliez pas que vous avez deux
@@ -2611,11 +2614,10 @@
                      <speaker>LA PRINCESSE.</speaker>
                      <l>C’est ce que nous verrons !…</l>
                      <stage>Elle veut saisir le globe terrestre.</stage>
-
                   </sp>
                   <sp n="7">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> l’arrêtant.</stage>
+                     <stage>l’arrêtant.</stage>
                      <l>Pas ça, ma fille !… Pas le monde !…</l>
                   </sp>
                   <sp n="8">
@@ -2726,16 +2728,15 @@
                   <stage>Les Mêmes, LE PRINCE SAPHIR.</stage>
                   <sp n="1">
                      <speaker>UN PAGE,</speaker>
-                     <stage> annonçant du fond.</stage>
+                     <stage>annonçant du fond.</stage>
                      <l>Le prince Saphir !</l>
                   </sp>
                   <sp n="2">
                      <speaker>SAPHIR,</speaker>
-                     <stage> entrant par le fond et saluant Bobèche et Clémentine.</stage>
+                     <stage>entrant par le fond et saluant Bobèche et Clémentine.</stage>
                      <l>Sire !… Madame !… <stage>(Il salue la princesse.)</stage> Mademoiselle
                         !…</l>
                      <stage>Celle-ci tourne le dos.</stage>
-
                   </sp>
                   <sp n="3">
                      <speaker>CLÉMENTINE,</speaker>
@@ -2749,7 +2750,7 @@
                   </sp>
                   <sp n="5">
                      <speaker>LA PRINCESSE,</speaker>
-                     <stage> allant à Saphir.</stage>
+                     <stage>allant à Saphir.</stage>
                      <l>Non !… et je vais lui dire à lui-même… <stage>(Elle lève les yeux, reconnaît
                            Saphir et se précipite dans ses bras en jetant un cri de joie.)</stage>
                         Ah !…</l>
@@ -2874,27 +2875,26 @@
                      <speaker>SAPHIR,</speaker>
                      <stage>ahuri, mais prenant son parti et faisant comme les autres.</stage>
                      <l>Ran, plan, plan, plan, plan !</l>
-                     <l>Le roi, la reine et la princesse se rasseyent en même temps, mécaniquement,
+                     <stage>Le roi, la reine et la princesse se rasseyent en même temps, mécaniquement,
                         sur la dernier note… Saphir stupéfait les regarde et se rassied un peu
-                        après.</l>
+                        après.</stage>
                   </sp>
                   <sp n="28">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> à Saphir. Parlé, très naturellement.</stage>
-                     <l>Maintenant, reprenez votre récit.</l>
+                     <stage>à Saphir. Parlé, très naturellement.</stage>
+                     <p>Maintenant, reprenez votre récit.</p>
                   </sp>
                   <sp n="29">
                      <speaker>SAPHIR,</speaker>
                      <stage>parlé.</stage>
-                     <l>Je disais donc que le cœur ne bat pas à la ville, mais qu’il bat aux
-                        champs…</l>
+                     <p>Je disais donc que le cœur ne bat pas à la ville, mais qu’il bat aux
+                        champs…</p>
                   </sp>
                   <sp n="30">
                      <speaker>BOBÈCHE,</speaker>
                      <stage>parlé.</stage>
-                     <l>Alors je reprends.</l>
+                     <p>Alors je reprends.</p>
                      <stage>Ici reprise du quatuor avec les mêmes jeux de scène.</stage>
-
                   </sp>
                   <sp n="31">
                      <speaker>BOBÈCHE,</speaker>
@@ -2984,12 +2984,12 @@
                   </sp>
                   <sp n="48">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> allant à elles. – A Clémentine.</stage>
+                     <stage>allant à elles. – A Clémentine.</stage>
                      <l>Vous abusez, madame…</l>
                   </sp>
                   <sp n="49">
                      <speaker>LA PRINCESSE,</speaker>
-                     <stage> voulant l’arrêter.</stage>
+                     <stage>voulant l’arrêter.</stage>
                      <l>Ne touchez pas à ma mère, monsieur !…</l>
                      <l>Elle veut retenir son père.</l>
                   </sp>
@@ -3012,7 +3012,7 @@
                   </sp>
                   <sp n="53">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> à Saphir, qui, cloué sur son siège, a écouté toute cette scène avec
+                     <stage>à Saphir, qui, cloué sur son siège, a écouté toute cette scène avec
                         stupeur.</stage>
                      <l>Voilà notre intérieur, monsieur… Un enfer ! un véritable enfer !… une fille
                         qui casse des vases précieux, et une femme…</l>
@@ -3046,19 +3046,18 @@
                   </sp>
                   <sp n="4">
                      <speaker>LE COMTE,</speaker>
-                     <stage> d’une voix étouffée.</stage>
+                     <stage>d’une voix étouffée.</stage>
                      <l>Oui.</l>
                      <stage>Il se lève et remonte.</stage>
 
                   </sp>
                   <sp n="5">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> avec éclat à Saphir, qui continue à écouter avec stupeur et qui est
+                     <stage>avec éclat à Saphir, qui continue à écouter avec stupeur et qui est
                         toujours assis.</stage>
                      <l>Une femme… à cause de qui j’ai été obligé de faire tuer un homme, il n’y a
                         pas un quart d’heure !</l>
                      <stage>Saphir se lève.</stage>
-
                   </sp>
                   <sp n="6">
                      <speaker>CLÉMENTINE,</speaker>
@@ -3210,7 +3209,7 @@
                   </sp>
                   <sp n="17">
                      <speaker>BOULOTTE,</speaker>
-                     <stage> montrant Clémentine.</stage>
+                     <stage>montrant Clémentine.</stage>
                      <l>C’tte gross’mèr’qu’a si bonn’mine,</l>
                      <l>Vingt sous qu’c’est mam’Clémentine !</l>
                   </sp>
@@ -3287,7 +3286,6 @@
                      <stage>Il va se placer à la droite de Bobèche. — Barbe-Bleue et Boulotte
                         gagnent la gauche ; Clémentine s’assied sur le fauteuil de droite ; la
                         princesse et Saphir restent debout auprès d’elle.</stage>
-
                   </sp>
                   <sp n="33">
                      <speaker>LE CHŒUR.</speaker>
@@ -3296,13 +3294,13 @@
                   </sp>
                   <sp n="34">
                      <speaker>LE COMTE,</speaker>
-                     <stage> annonçant le premier couple qui s’avance. – Parlé.</stage>
-                     <l>Le chevalier et la chevalière de la Tour-qui-craque !</l>
+                     <stage>annonçant le premier couple qui s’avance. – Parlé.</stage>
+                     <p>Le chevalier et la chevalière de la Tour-qui-craque !</p>
                   </sp>
                   <sp n="35">
                      <speaker>BOBÈCHE,</speaker>
                      <stage>parlé.</stage>
-                     <l>Ma bonne noblesse du midi !</l>
+                     <p>Ma bonne noblesse du midi !</p>
                      <stage>(Tous les seigneurs et dames viennent, à tour de rôle, baiser la main de
                         Bobèche.)</stage>
 
@@ -3320,15 +3318,14 @@
                   </sp>
                   <sp n="38">
                      <speaker>LE COMTE,</speaker>
-                     <stage> quand tous les seigneurs et dames ont défilé, annonçant de même. –
+                     <stage>quand tous les seigneurs et dames ont défilé, annonçant de même. –
                         Parlé.</stage>
-                     <l>Le sire de Barbe-Bleue et sa sixième !</l>
+                     <p>Le sire de Barbe-Bleue et sa sixième !</p>
                      <stage>(Barbe-Bleue s’avance avec Boulotte.)</stage>
-
                   </sp>
                   <sp n="39">
                      <speaker>BOULOTTE,</speaker>
-                     <stage> à part, voyant Saphir et s’arrêtant au moment de baiser la main de
+                     <stage>à part, voyant Saphir et s’arrêtant au moment de baiser la main de
                         Bobèche.</stage>
                      <l>Ah çà ! ce jeune homme,</l>
                      <l>Vêtu de satin…</l>
@@ -3348,7 +3345,7 @@
                   </sp>
                   <sp n="41">
                      <speaker>SAPHIR et LA PRINCESSE,</speaker>
-                     <stage> reconnaissant Boulotte, à part.</stage>
+                     <stage>reconnaissant Boulotte, à part.</stage>
                      <l>Boulotte !…</l>
                   </sp>
                   <sp n="42">
@@ -3363,7 +3360,7 @@
                   </sp>
                   <sp n="44">
                      <speaker>LA PRINCESSE,</speaker>
-                     <stage> bas à Clémentine.</stage>
+                     <stage>bas à Clémentine.</stage>
                      <l>Ah ! maman !…</l>
                   </sp>
                   <sp n="45">
@@ -3377,7 +3374,7 @@
                   </sp>
                   <sp n="47">
                      <speaker>BOULOTTE,</speaker>
-                     <stage> à part, regardant Saphir.</stage>
+                     <stage>à part, regardant Saphir.</stage>
                      <l>Ah ! le petit gueux !</l>
                   </sp>
                   <sp n="48">
@@ -3387,7 +3384,7 @@
                   </sp>
                   <sp n="49">
                      <speaker>BOBÈCHE,</speaker>
-                     <stage> tendant toujours la main. Parlé.</stage>
+                     <stage>tendant toujours la main. Parlé.</stage>
                      <l>Eh bien ?…</l>
                   </sp>
                   <sp n="50">
@@ -3469,7 +3466,7 @@
                   </sp>
                   <sp n="61">
                      <speaker>BOULOTTE,</speaker>
-                     <stage> regardant Saphir.</stage>
+                     <stage>regardant Saphir.</stage>
                      <l>Qu’il est charmant, le freluquet !</l>
                      <l>Quel œil fripon ! quel air coquet !</l>
                      <l>Qu’il est charmant, le freluquet !</l>
@@ -3496,7 +3493,6 @@
                      <stage>à Bobèche.</stage>
                      <l>Vous aussi ?… je n’demand’pas mieux !</l>
                      <stage>(Elle embrasse Bobèche sur les deux joues.)</stage>
-
                   </sp>
                   <sp n="66">
                      <speaker>LE CHŒUR.</speaker>
@@ -3508,11 +3504,10 @@
                      <l>Tous ces messieurs ?</l>
                      <stage>(Elle va embrasser le comte Oscar, puis veut s’élancer vers les
                         seigneurs.)</stage>
-
                   </sp>
                   <sp n="68">
                      <speaker>BARBE-BLEUE,</speaker>
-                     <stage> l’arrêtant et la ramenant au milieu.</stage>
+                     <stage>l’arrêtant et la ramenant au milieu.</stage>
                      <l>Non, ça suffit… Partons, partons !</l>
                   </sp>
                   <sp n="69">
@@ -3556,8 +3551,7 @@
                      rideau tombe sur un tableau très animé.)</stage>
                </div>
             </div>
-         </div>
-         <div type="tableau" n="2">
+            <div type="tableau" n="2">
             <head>DEUXIÈME TABLEAU</head>
             <stage>Le caveau de l’alchimiste. Une grande pièce souterraine. Le laboratoire de
                Popolani : fourneaux, cornues. Au fond, au milieu de la scène, faisant face au
@@ -3603,7 +3597,7 @@
                </sp>
                <sp n="2">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> d’une voix brève qu’il garde pendant toute la scène.</stage>
+                  <stage>d’une voix brève qu’il garde pendant toute la scène.</stage>
                   <l>Tu es seul ?</l>
                </sp>
                <sp n="3">
@@ -3613,7 +3607,7 @@
                </sp>
                <sp n="4">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> aux hommes d’arme.</stage>
+                  <stage>aux hommes d’arme.</stage>
                   <l>Allez gens d’armes ! <stage>(Les hommes d’armes sortent par le fond. — À
                         Popolani.)</stage> Va préparer le plus rapide de tes poisons.</l>
                </sp>
@@ -3700,13 +3694,13 @@
                <stage>BARBE-BLEUE, BOULOTTE.</stage>
                <sp n="1">
                   <speaker>BOULOTTE.</speaker>
-                  <l>Ah çà, qu’est-ce que ça signifie ?… cette partie de campagne à dix heures du
+                  <p>Ah çà, qu’est-ce que ça signifie ?… cette partie de campagne à dix heures du
                      soir… cette promenade au galop à travers la tempête, les éclairs et tout le
                      tremblement… Votre silence quand je vous demande oùs que nous allons… cette
                      tour et cet escalier dont vos hommes d’armes m’ont fait descendre les marches…
                      cet escalier oùs qu’il y a un tas de rats… <stage>(Mouvement de
                         Barbe-Bleue.)</stage> Ne dites pas non !… je les ai sentis qui me couraient
-                     dans les jambes, pendant que je descendais.</l>
+                     dans les jambes, pendant que je descendais.</p>
                </sp>
                <sp n="2">
                   <speaker>BARBE-BLEUE.</speaker>
@@ -3776,7 +3770,6 @@
                   <l>Allons-nous-en !</l>
                   <stage>Elle veut se sauver et se jette sur la porte du fond qu’elle trouve
                      fermée.</stage>
-
                </sp>
                <sp n="16">
                   <speaker>BARBE-BLEUE,</speaker>
@@ -3800,9 +3793,9 @@
                   <stage>gentiment.</stage>
                   <l>C’est bêbête ! ce que vous dites-là ! Je le sais bien, que vous ne voulez pas…
                      mais…</l>
-                  <stage>DUO.</stage>
                </sp>
-               <sp n="21">
+               <stage>DUO.</stage>
+               <sp>
                   <speaker>BARBE-BLEUE,</speaker>
                   <stage>désignant le mausolée.</stage>
                   <l>Vous avez vu ce monument,</l>
@@ -3957,7 +3950,7 @@
                </sp>
                <sp n="43">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> sans l’écouter.</stage>
+                  <stage>sans l’écouter.</stage>
                   <l>Amours nouvelles !</l>
                   <l>Changer de belles,</l>
                   <l>Changer tous les jours !</l>
@@ -3990,7 +3983,7 @@
                </sp>
                <sp n="48">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> gaîment.</stage>
+                  <stage>gaîment.</stage>
                   <l>Oui, je veux me remarier.</l>
                </sp>
                <sp n="49">
@@ -4003,7 +3996,6 @@
                   <stage>tranquillement.</stage>
                   <l>Vous avez le droit de crier.</l>
                   <stage>(Orage très-violent au dehors.)</stage>
-
                </sp>
                <sp n="51">
                   <speaker>BOULOTTE,</speaker>
@@ -4065,12 +4057,11 @@
                   <speaker>BARBE-BLEUE,</speaker>
                   <stage>la repoussant.</stage>
                   <l>Dans cinq minutes ! <stage>(Boulotte tombe lourdement sur ses mains ;
-                        Barbe-Bleue se retournant tranquillement.)</stage> Vous vous êtes fait mal
-                     ?</l>
+                        Barbe-Bleue se retournant tranquillement.)</stage> Vous vous êtes fait mal?</l>
                </sp>
                <sp n="6">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> d’un ton naturel.</stage>
+                  <stage>d’un ton naturel.</stage>
                   <l>Vous êtes bien bon.</l>
                </sp>
                <stage>Barbe-Bleue sort par le fond.</stage>
@@ -4151,7 +4142,6 @@
                   <l>Il a la manie de se remarier… Donc, hop-là !… hop-là !… dépêchons…
                      dépêchons…</l>
                   <stage>Il lui présente le verre et la fiole.</stage>
-
                </sp>
                <sp n="17">
                   <speaker>BOULOTTE.</speaker>
@@ -4267,7 +4257,6 @@
                         qu’il y a dans la fiole et boit le verre d’eau sucrée.)</stage> Fait !… Ah !
                      fait !…</l>
                   <stage>Elle met la fiole sur la table.</stage>
-
                </sp>
                <sp n="42">
                   <speaker>POPOLANI,</speaker>
@@ -4278,7 +4267,6 @@
                   <speaker>BOULOTTE,</speaker>
                   <stage>ravie.</stage>
                   <l>J’ai bu ! <stage>(Riant.)</stage> mais pas fiole !…</l>
-
                   <stage>Elle lui montre le verre vide.</stage>
                </sp>
                <sp n="44">
@@ -4319,7 +4307,6 @@
                   <speaker>BOULOTTE.</speaker>
                   <l>Si fait… ça commence…</l>
                   <stage>(Elle passe à gauche.)</stage>
-
                </sp>
                <sp n="52">
                   <speaker>BOULOTTE.</speaker>
@@ -4328,7 +4315,6 @@
                   <l>Quel drôl’d’effet,</l>
                   <l>La mort me fait !</l>
                   <stage>(Elle va tomber sur le lit de repos.)</stage>
-
                </sp>
                <sp n="53">
                   <speaker>POPOLANI.</speaker>
@@ -4352,7 +4338,6 @@
                   <l>Quel drôl’d’effet</l>
                   <l>La mort me fait !</l>
                   <stage>(Elle meurt.)</stage>
-
                </sp>
                <sp n="57">
                   <speaker>POPOLANI.</speaker>
@@ -4381,7 +4366,6 @@
                   <stage>de même.</stage>
                   <l>Morte !</l>
                   <stage>(Barbe-Bleue va prendre à Boulotte son anneau nuptial.)</stage>
-
                </sp>
                <sp n="5">
                   <speaker>BARBE-BLEUE,</speaker>
@@ -4408,7 +4392,7 @@
                   Barbe-Bleue se perd au loin.</stage>
                <sp n="1">
                   <speaker>POPOLANI.</speaker>
-                  <l>Une justice à lui rendre, c’est qu’il prend tout ça gaîment !… Et puis, il a
+                  <p>Une justice à lui rendre, c’est qu’il prend tout ça gaîment !… Et puis, il a
                      une jolie voix… Le voilà parti, et pour tout de bon cette fois… <stage>(Il
                         revient vers Boulotte et la regarde.)</stage> Pauvre Boulotte ! Avec elle,
                      ça me fait plus d’effet qu’avec les autres, parce que je la connais…
@@ -4428,13 +4412,12 @@
                         machine électrique, puis la tête sous le foulard, il observe Boulotte comme
                         un photographe observerait un modèle ; cela fait, il tourne la manivelle de
                         sa machine : on entend un air de serinette.)</stage> Elle est à musique…
-                     c’est plus gai.</l>
+                     c’est plus gai.</p>
                   <stage>Boulotte commence à s’agiter sous le fluide.</stage>
-
                </sp>
                <sp n="2">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> s’agitant.</stage>
+                  <stage>s’agitant.</stage>
                   <l>Eh là !…</l>
                </sp>
                <sp n="3">
@@ -4444,7 +4427,7 @@
                </sp>
                <sp n="4">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> s’agitant de plus en plus.</stage>
+                  <stage>s’agitant de plus en plus.</stage>
                   <l>Eh là ! eh là !…</l>
                </sp>
                <sp n="5">
@@ -4495,7 +4478,6 @@
                   <l>Oui !… <stage>(Boulotte, qui tenait toujours le cordon, le lui rend ; tout deux
                         éprouvent une violente secousse électrique.)</stage> Il en restait.</l>
                   <stage>Il remet le cordon sur la machine.</stage>
-
                </sp>
                <sp n="16">
                   <speaker>BOULOTTE.</speaker>
@@ -4507,7 +4489,7 @@
                </sp>
                <sp n="18">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> l’embrassant.</stage>
+                  <stage>l’embrassant.</stage>
                   <l>Popolani !…</l>
                </sp>
                <sp n="19">
@@ -4562,14 +4544,14 @@
                </sp>
                <sp n="31">
                   <speaker>POPOLANI.</speaker>
-                  <l>On se trompe… Au fond, je suis le meilleur homme du monde… plein de cœur,
+                  <p>On se trompe… Au fond, je suis le meilleur homme du monde… plein de cœur,
                      Popolani, plein de cœur… et d’électricité !… Il y trois ans, le sire de
                      Barbe-Bleue m’ordonna de tuer sa première femme… C’était Héloïse… Je fus
                      humain… je me contentai de lui administrer une drogue qui ne la tua que pour
                      une demi-heure. Quand elle revint à elle, je lui tins à peu près ce langage : «
                      Ma petite chatte, entendons-nous bien… voulez-vous remourir, pour tout de bon,
                      cette fois, ou bien consentir à être gentille avec Popol… et à faire son petit
-                     bésigue, comme Odette avec Charles VI ?… »</l>
+                     bésigue, comme Odette avec Charles VI ?… »</p>
                </sp>
                <sp n="32">
                   <speaker>BOULOTTE.</speaker>
@@ -4591,11 +4573,11 @@
                </sp>
                <sp n="35">
                   <speaker>POPOLANI.</speaker>
-                  <l>Au bout d’une année de… bésigue, nouveau mariage de Barbe-Bleue, nouvelle femme
+                  <p>Au bout d’une année de… bésigue, nouveau mariage de Barbe-Bleue, nouvelle femme
                      à tuer… Les garder ici toutes les deux, c’était braver la colère de
                      Barbe-Bleue… mais c’était humain !… ce fut l’humanité qui l’emporta !… Puis
                      vint une troisième femme, une quatrième… une cinquième… Et toujours cette
-                     diablesse d’humanité !…</l>
+                     diablesse d’humanité !…</p>
                </sp>
                <sp n="36">
                   <speaker>BOULOTTE,</speaker>
@@ -4634,7 +4616,7 @@
                </sp>
                <sp n="44">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> avec un étonnement mêlé d’un peu de dépit.</stage>
+                  <stage>avec un étonnement mêlé d’un peu de dépit.</stage>
                   <l>Ah bah !</l>
                </sp>
                <sp n="45">
@@ -4740,7 +4722,6 @@
                   <l>Salut à toi, sixième femme</l>
                   <l>De l’homme aux rapides amours !</l>
                   <stage>(Elles descendent en scène.)</stage>
-
                </sp>
                <sp n="2">
                   <speaker>BOULOTTE.</speaker>
@@ -4756,7 +4737,7 @@
                </sp>
                <sp n="4">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> passant au milieu, ainsi que Popolani.</stage>
+                  <stage>passant au milieu, ainsi que Popolani.</stage>
                   <l>Oui, bien rapides, car l’infâme,</l>
                   <l>Ne m’a donné que mes huit jours !</l>
                </sp>
@@ -4961,6 +4942,7 @@
                   les femmes à le suivre. Celles-ci, folles de joie, se disposent à partir ; le
                   rideau tombe.)</stage>
             </div>
+            </div>
          </div>
          <div type="act" n="3">
             <head>ACTE TROISIÈME</head>
@@ -4992,7 +4974,7 @@
                <sp n="3">
                   <speaker>LE COMTE,</speaker>
                   <stage>consultant son carnet, parlé.</stage>
-                  <l>Cantate numéro 22 !</l>
+                  <p>Cantate numéro 22 !</p>
                </sp>
                <sp n="4">
                   <speaker>CHŒUR GÉNÉRAL.</speaker>
@@ -5184,7 +5166,7 @@
                </sp>
                <sp n="26">
                   <speaker>BOBÈCHE,</speaker>
-                  <stage> gaîment.</stage>
+                  <stage>gaîment.</stage>
                   <l>Un duel ! un duel !</l>
                   <l>C’est charmant ! ça va nous distraire !</l>
                </sp>
@@ -5206,7 +5188,7 @@
                   <l>Le vainqueur sera son époux !</l>
                </sp>
                <sp n="30">
-                  <speaker>BARBE-BLEUEet SAPHIR.</speaker>
+                  <speaker>BARBE-BLEUE et SAPHIR.</speaker>
                   <l>Le ciel juge entre nous !</l>
                </sp>
                <sp n="31">
@@ -5228,7 +5210,7 @@
                </sp>
                <sp n="34">
                   <speaker>BOBÈCHE,</speaker>
-                  <stage> à Saphir et à Barbe-Bleue.</stage>
+                  <stage>à Saphir et à Barbe-Bleue.</stage>
                   <l>Et maintenant, allez, messieurs !</l>
                   <stage>(Le combat commence.)</stage>
                </sp>
@@ -5248,7 +5230,7 @@
                </sp>
                <sp n="36">
                   <speaker>LA PRINCESSE et CLÉMENTINE,</speaker>
-                  <stage> à part.</stage>
+                  <stage>à part.</stage>
                   <l>Le ciel protège { son } amant !</l>
                   <l>mon</l>
                </sp>
@@ -5312,12 +5294,12 @@
                </sp>
                <sp n="46">
                   <speaker>LA PRINCESSE,</speaker>
-                  <stage> examinant Saphir.</stage>
+                  <stage>examinant Saphir.</stage>
                   <l>Mais où diable a-t-il donc reçu le coup mortel ?</l>
                </sp>
                <sp n="47">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> à la princesse penchée sur Saphir.</stage>
+                  <stage>à la princesse penchée sur Saphir.</stage>
                   <l>Relevez-vous, princesse, et volons à l’autel !</l>
                   <stage>(Les cloches se remettent à sonner ; Clémentine arrache sa fille du corps
                      de Saphir et l’emmène de force vers Barbe-Bleue qui lui prend la main.)</stage>
@@ -5337,7 +5319,7 @@
                <sp n="50">
                   <speaker>LE COMTE,</speaker>
                   <stage>parlé.</stage>
-                  <l>Reprise de la cantate numéro 22.</l>
+                  <p>Reprise de la cantate numéro 22.</p>
                </sp>
                <sp n="51">
                   <speaker>LE CHŒUR.</speaker>
@@ -5352,7 +5334,7 @@
                <stage>LE COMTE, SAPHIR, étendu sur le canapé, puis un Page, puis POPOLANI.</stage>
                <sp n="1">
                   <speaker>LE COMTE,</speaker>
-                  <stage> seul, regardant Saphir.</stage>
+                  <stage>seul, regardant Saphir.</stage>
                   <p>O prince infortuné !… à quoi cela lui a-t-il servi d’être jeune, d’être beau,
                      d’être aimé ?… Mais qu’est-ce que ça me fait après tout ?… Est-ce que, nous
                      autres, hommes politiques, nous avons le temps de pleurer ?…</p>
@@ -5728,7 +5710,7 @@
                </sp>
                <sp n="90">
                   <speaker>LE COMTE,</speaker>
-                  <stage> reculant, abîmé dans ses réflexions.</stage>
+                  <stage>reculant, abîmé dans ses réflexions.</stage>
                   <l>C’est vrai !… c’est vrai !…</l>
                   <stage>Il se laisse tomber sur le canapé et s’assied sur le prince Saphir.</stage>
                </sp>
@@ -5767,7 +5749,7 @@
                </sp>
                <sp n="98">
                   <speaker>SAPHIR,</speaker>
-                  <stage> se tâtant.</stage>
+                  <stage>se tâtant.</stage>
                   <l>Non, pas mort, décidément !</l>
                </sp>
                <sp n="99">
@@ -5776,7 +5758,7 @@
                </sp>
                <sp n="100">
                   <speaker>SAPHIR,</speaker>
-                  <stage> se tâtant de nouveau.</stage>
+                  <stage>se tâtant de nouveau.</stage>
                   <l>Blessé ? peut-être… non, pas blessé !</l>
                </sp>
                <sp n="101">
@@ -5823,7 +5805,7 @@
                </sp>
                <sp n="111">
                   <speaker>LE COMTE,</speaker>
-                  <stage> l’arrêtant.</stage>
+                  <stage>l’arrêtant.</stage>
                   <l>J’ai mieux que ça à vous proposer.</l>
                </sp>
                <sp n="112">
@@ -5832,7 +5814,7 @@
                </sp>
                <sp n="113">
                   <speaker>LE COMTE,</speaker>
-                  <stage> montrant Popolani.</stage>
+                  <stage>montrant Popolani.</stage>
                   <l>Suivez cet homme.</l>
                </sp>
                <sp n="114">
@@ -5849,7 +5831,7 @@
                </sp>
                <sp n="117">
                   <speaker>LE COMTE,</speaker>
-                  <stage> à Popolani.</stage>
+                  <stage>à Popolani.</stage>
                   <l>Tu m’as compris ?</l>
                </sp>
                <sp n="118">
@@ -5947,7 +5929,7 @@
                </sp>
                <sp n="11">
                   <speaker>LE COMTE,</speaker>
-                  <stage> s’approchant.</stage>
+                  <stage>s’approchant.</stage>
                   <l>Il y aurait un moyen, peut-être…</l>
                </sp>
                <sp n="12">
@@ -6041,7 +6023,7 @@
                </sp>
                <sp n="10">
                   <speaker>BOBÈCHE,</speaker>
-                  <stage> s’approchant et avec humeur.</stage>
+                  <stage>s’approchant et avec humeur.</stage>
                   <l>Ne m’appelez donc pas Bobèche !…</l>
                </sp>
                <sp n="11">
@@ -6082,7 +6064,7 @@
                </sp>
                <sp n="19">
                   <speaker>CLÉMENTINE,</speaker>
-                  <stage> s’approchant.</stage>
+                  <stage>s’approchant.</stage>
                   <l>Bobèche ?…</l>
                </sp>
                <sp n="20">
@@ -6229,11 +6211,11 @@
                <sp n="7">
                   <speaker>LE CHŒUR.</speaker>
                   <l>Rire aujourd’hui, pleurer demain,</l>
-                  <l>C’est la loi du destin !</l>
-                  <l>Les bohémiens et les bohémiennes vont se placer, les femmes à gauche, les
-                     hommes à droite, sur un seul rang. — Pendant la dernière reprise, Barbe-Bleue a
-                     gagné la gauche, en passant derrière les bohémiens.</l>
+                  <l>C’est la loi du destin !</l> 
                </sp>
+               <stage>Les bohémiens et les bohémiennes vont se placer, les femmes à gauche, les
+                     hommes à droite, sur un seul rang. — Pendant la dernière reprise, Barbe-Bleue a
+                     gagné la gauche, en passant derrière les bohémiens.</stage>
                <sp n="8">
                   <speaker>BOBÈCHE.</speaker>
                   <l>Et maintenant, commençons sans perdre une minute… La bonne aventure, ô gué, la
@@ -6247,9 +6229,9 @@
                <sp n="10">
                   <speaker>BOBÈCHE,</speaker>
                   <stage>lui donnant sa main.</stage>
-                  <l>La voici.</l>
-                  <stage>Musique à l’orchestre.</stage>
+                  <l>La voici.</l>     
                </sp>
+               <stage>Musique à l’orchestre.</stage>
                <sp n="11">
                   <speaker>BOULOTTE.</speaker>
                   <l>Combien de doigts à cette main ?</l>
@@ -6278,11 +6260,11 @@
                </sp>
                <sp n="17">
                   <speaker>BOULOTTE.</speaker>
-                  <l>Cinq… et si à chaque fois que vous avez dit au comte Oscar : « Comte Oscar… Cet
-                     homme doit mourir !… »</l>
-                  <l>si chaque fois que vous avez dit cela, il vous était tombé un doigt, n’est-ce
+                  <p>Cinq… et si à chaque fois que vous avez dit au comte Oscar : « Comte Oscar… Cet
+                     homme doit mourir !… »</p>
+                  <p>si chaque fois que vous avez dit cela, il vous était tombé un doigt, n’est-ce
                      pas qu’aujourd’hui vous seriez diablement embarrassé pour tenir votre royale
-                     fourchette ?…</l>
+                     fourchette ?…</p>
                </sp>
                <sp n="18">
                   <speaker>BOBÈCHE,</speaker>
@@ -6295,7 +6277,7 @@
                </sp>
                <sp n="20">
                   <speaker>BOULOTTE,</speaker>
-                  <stage> à Barbe-Bleue, qui s’approche d’elle.</stage>
+                  <stage>à Barbe-Bleue, qui s’approche d’elle.</stage>
                   <l>À vous, messire, si vous le voulez !</l>
                </sp>
                <sp n="21">
@@ -6378,7 +6360,7 @@
                </sp>
                <sp n="37">
                   <speaker>LES SIX FEMMES,</speaker>
-                  <stage> s’avançant sur Barbe-Bleue et le menaçant.</stage>
+                  <stage>s’avançant sur Barbe-Bleue et le menaçant.</stage>
                   <l>Monstre !…</l>
                </sp>
                <sp n="38">
@@ -6406,7 +6388,7 @@
                </sp>
                <sp n="43">
                   <speaker>LA PRINCESSE,</speaker>
-                  <stage> reconnaissant Saphir.</stage>
+                  <stage>reconnaissant Saphir.</stage>
                   <l>Mon berger !…</l>
                </sp>
                <sp n="44">
@@ -6415,7 +6397,7 @@
                </sp>
                <sp n="45">
                   <speaker>BARBE-BLEUE,</speaker>
-                  <stage> à Popolani.</stage>
+                  <stage>à Popolani.</stage>
                   <l>Tu ne les tuais donc pas ?</l>
                </sp>
                <sp n="46">
@@ -6436,7 +6418,7 @@
                </sp>
                <sp n="50">
                   <speaker>BOBÈCHE,</speaker>
-                  <stage> au comte Oscar qui s’approche.</stage>
+                  <stage>au comte Oscar qui s’approche.</stage>
                   <l>Tu n’as donc pas exécuté mes ordres ?</l>
                </sp>
                <sp n="51">
@@ -6535,7 +6517,7 @@
                </sp>
                <sp n="2">
                   <speaker>LE COMTE,</speaker>
-                  <stage> présentant Saphir.</stage>
+                  <stage>présentant Saphir.</stage>
                   <l>Premier seigneur</l>
                </sp>
                <sp n="3">
@@ -6545,7 +6527,7 @@
                </sp>
                <sp n="4">
                   <speaker>LA PRINCESSE,</speaker>
-                  <stage> à Saphir.</stage>
+                  <stage>à Saphir.</stage>
                   <l>À vous mon cœur !</l>
                </sp>
                <sp n="5">
@@ -6580,12 +6562,12 @@
                </sp>
                <sp n="11">
                   <speaker>POPOLANI,</speaker>
-                  <stage> présentant Héloïse.</stage>
+                  <stage>présentant Héloïse.</stage>
                   <l>Seconde dame !</l>
                </sp>
                <sp n="12">
                   <speaker>LE COMTE,</speaker>
-                  <stage> à Héloïse.</stage>
+                  <stage>à Héloïse.</stage>
                   <l>Ça vous va-t-il ?</l>
                </sp>
                <sp n="13">
@@ -6709,4 +6691,3 @@
       </body>
    </text>
 </TEI>
-
