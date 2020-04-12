@@ -1,0 +1,3645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../ODD/out/librettiODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Pelléas et Mélisande</title>
+            <author role="songWriter">Claude Debussy</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Ecole nationale des chartes, projet libretti TNAH, promotion 2019-2020</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>http://www.operafolio.com/libretto.asp?n=Pelleas_et_Melisande</p>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="speech" matchPattern="(\w+).(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2']/tei:sp[@n='$3'])">
+               <p>Ce pointeur extrait les niveaux de citation 1, 2 et 3, soit acte, scène et tour de
+                  parole.</p>
+            </cRefPattern>
+            <cRefPattern n="scene" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1']/tei:div[@type='scene'][@n='$2'])">
+               <p>Ce poiteur extrait les niveaux de citation 1 et 2, soit les actes et scènes.</p>
+            </cRefPattern>
+            <cRefPattern n="act" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@type='act'][@n='$1'])">
+               <p>Ce pointeur extrait le premier niveau de citation du texte, soit les actes.</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text>
+      <body n="urn:cts:libOp:viaf6219636.viaf185487510.TNAH2020-fre1" xml:lang="fre">
+         <castList>
+            <castItem type="role">Pelléas (Ténor M-M) : Demi-frère de Golaud</castItem>
+            <castItem type="role">Mélisande (Soprano F-H) : Jeune-fille aux cheveux longs, épouse
+               Golaud</castItem>
+            <castItem type="role">Golaud (Baryton M-L) : Prince, petit-fils d'Arkel, veuf</castItem>
+            <castItem type="role">Yniold (Soprano F-H) : Fils de Golaud, né d'un premier mariage</castItem>
+            <castItem type="role">Geneviève (Alto M-VH) : Mère de Pelléas et Golaud</castItem>
+            <castItem type="role">Arkel (Basse M-VL) : Roi</castItem>
+            <castItem type="role">Le médecin (Basse M-VL)</castItem>
+            <castItem type="role">Le berger (Baryton M-L)</castItem>
+         </castList>
+
+         <div type="act" n="1">
+            <head>Acte 1</head>
+
+            <div type="scene" n="1">
+               <head>Scène 1</head>
+               <stage>Le rideau ouvert on douvre Mélisande au bond d'une fontaine. Entre
+                  Golaud.</stage>
+
+               <sp n="1">
+                  <speaker>Golaud</speaker>
+                  <l>Je ne pourrai plus sortir de cette forêt !</l>
+                  <l>Dieu sait jusqu'où cette bête m'a mené.</l>
+                  <l>Je croyais cependant l'avoir blessée à mort; et voici dans traces de sang.</l>
+                  <l>Mais maintenant, je l'ai perdue de vue, je crois que je me suis perdu
+                     moi-même,</l>
+                  <l>et mes chiens ne me retrouvent plus.</l>
+                  <l>Je vais revenir sur mes pas.</l>
+                  <l>J'entends pleurer...</l>
+                  <l>Oh! Oh! qu'y a-t-il là au bord de l'eau ?</l>
+                  <l>Une petite fille qui pleure au bord de l'eau ?</l>
+                  <stage>(Il tousse.)</stage>
+                  <l>Elle ne m'entend pas,</l>
+                  <l>Je ne vois pas son visage.</l>
+                  <stage>(Il s'approche et touche Mélisande à l'aule.)</stage>
+                  <l>Pourquoi pleures-tu ?</l>
+                  <stage>(Mélisande tressaille, se dresse et veut fuir.)</stage>
+                  <l>N'ayez pas peur vous n'avez rien à craindre.</l>
+                  <l>Pourquoi pleurez-vous, ici, toute seule ?</l>
+               </sp>
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <stage>(presque sans voix)</stage>
+                  <l>Ne me touchez pas! Ne me touchez pas !</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Golaud</speaker>
+                  <l>N'ayez pas peur...</l>
+                  <l>Je ne vous ferai pas...</l>
+                  <l>Oh! vous êtes belle.</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Mélisande</speaker>
+                  <l>Ne me touchez pas! ne me touchez pas, ou je me jette à l'eau !</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Golaud</speaker>
+                  <l>Je ne vous touche pas...</l>
+                  <stage>(doux et calme)</stage>
+                  <l>Voyez, je resterai ici, contre l'arbre.</l>
+                  <l>N'ayez pas peur.</l>
+                  <l>Quelqu'un vous a-t-il fait du mal ?</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! oui! oui! oui!</l>
+                  <stage>(Elle sanglote profondément.)</stage>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Golaud</speaker>
+                  <l>Qui est-ce qui vous a fait du mal ?</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Mélisande</speaker>
+                  <l>Tous! tous!</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Golaud</speaker>
+                  <l>Quel mal vous a-t-on fait ?</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne veux pas le dire ! je ne peux pas le dire !</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Golaud</speaker>
+                  <l>Voyons, ne pleurez pas ainsi.</l>
+                  <l>D'où venez-vous?</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Mélisande</speaker>
+                  <l>Je me suis enfuie ! enfuie...enfuie...</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, mais d'où vous êtes-vous enfuie ?</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Mélisande</speaker>
+                  <l>Je suis perdue ! perdue !</l>
+                  <l>Oh! oh! perdue ici...</l>
+                  <l>Je ne suis pas d'ici...</l>
+                  <l>Je ne suis pas née là...</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Golaud</speaker>
+                  <l>D'où êtes vous ?</l>
+                  <l>Où êtes-vous née ?</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! oh! loin d'ici...loin...loin...</l>
+               </sp>
+               <sp n="17">
+                  <speaker>Golaud</speaker>
+                  <l>Qu'est-ce qui brille ainsi au fond de l'eau ?</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Où donc ? Ah!</l>
+                  <l>C'est la couronne qu'il m'a donnée.</l>
+                  <l>Elle est tombée en pleurant.</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Golaud</speaker>
+                  <l>Une couronne ?</l>
+                  <l>Qui est-ce qui vous a donné une couronne ?</l>
+                  <l>Je vais essayer de la prendre...</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, je n'en veux plus ! je n'en veux plus</l>
+                  <l>Je préfère mourir...mourir tout de suite !</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Golaud</speaker>
+                  <l>Je pourrais la retirer facilement;</l>
+                  <l>L'eau n'est pas très profonde.</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Mélisande</speaker>
+                  <l>Je n'en veux plus!</l>
+                  <l>Si vous la retirez, je me jette à sa place!</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Golaud</speaker>
+                  <l>Non, non; je la laisserai là;</l>
+                  <l>On pourrait la prendre sans peine cependant.</l>
+                  <l>Elle semble très belle.</l>
+                  <l>Y a-t-il longtemps que vous avez fui?</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, oui,</l>
+                  <l>Qui êtes-vous?</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Golaud</speaker>
+                  <l>Je suis le prince Golaud le petit fils d'Arkel le vieux roi d'Allemonde...</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! vous avez déjà les cheveux gris!</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Golaud</speaker>
+                  <l>Oui; quelques-uns, ici, près des tempes...</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Mélisande</speaker>
+                  <l>Et la barge aussi...</l>
+                  <l>Pourquoi me regardez-vous ainsi?</l>
+               </sp>
+               <sp n="29">
+                  <speaker>Golaud</speaker>
+                  <l>Je regarde vos yeux.</l>
+                  <l>Vous ne fermez jamais les yeux?</l>
+               </sp>
+               <sp n="30">
+                  <speaker>Mélisande</speaker>
+                  <l>Si, si je les ferme la nuit...</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Golaud</speaker>
+                  <l>Pourquoi avez-vous l'air si étonnée?</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Mélisande</speaker>
+                  <l>Vous êtes un géant!</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Golaud</speaker>
+                  <l>Je suis un homme comme les autres...</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi êtes-vous venu ici?</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Golaud</speaker>
+                  <l>Je n'en sais rien moi-même.</l>
+                  <l>Je chassais dans la forêt.</l>
+                  <l>Je poursuivais un sanglier,</l>
+                  <l>Je me suis trompé de chemin.</l>
+                  <l>Vous avez l'air très jeune.</l>
+                  <l>Quel âge avez-vous?</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Mélisande</speaker>
+                  <l>Je commence à avoir froid...</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Golaud</speaker>
+                  <l>Voulez-vous venir avec moi?</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, je reste ici.</l>
+               </sp>
+
+               <sp n="39">
+                  <speaker>Golaud</speaker>
+                  <l>Vous ne pouvez pas rester ici toute seule,</l>
+                  <l>Vous ne pouvez pas rester ici toute la nuit...</l>
+                  <l>Comment vous nommez-vous?</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Mélisande.</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Golaud</speaker>
+                  <l>Vous ne pouvez pas rester ici, Mélisande.</l>
+                  <l>Venez avec moi...</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Mélisande</speaker>
+                  <l>Je reste ici</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Golaud</speaker>
+                  <l>Vous aurez peur, toute seule,</l>
+                  <l>On ne sait pas ce qu'il y a ici...toute la nuit...</l>
+                  <l>toute seule...ce n'est pas possible,</l>
+                  <stage>(avec une grande douceur)</stage>
+                  <l>Mélisande, venez, donnez la main...</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! ne me touchez pas!</l>
+               </sp>
+
+               <sp n="45">
+                  <speaker>Golaud</speaker>
+                  <l>Ne criez pas...</l>
+                  <l>Je ne vous toucherai plus</l>
+                  <l>Mais venez avec moi.</l>
+                  <l>La nuit sera très noire et très froide.</l>
+                  <l>Venez avec moi...</l>
+               </sp>
+
+               <sp n="46">
+                  <speaker>Mélisande</speaker>
+                  <l>Où allez-vous?</l>
+               </sp>
+
+               <sp n="47">
+                  <speaker>Golaud</speaker>
+                  <l>Je ne sais pas...</l>
+                  <l>Je suis perdu aussi...</l>
+               </sp>
+               <stage>(Ils sortent.)</stage>
+            </div>
+
+            <div type="scene" n="2">
+               <head>Scène 2</head>
+               <stage>Un appartement dans le château</stage>
+
+               <stage>Arkel et Geneviève</stage>
+
+               <sp n="1">
+                  <speaker>Geneviève</speaker>
+                  <l>Voici ce qu'il écrit à son frère Pelléas :</l>
+                  <stage>(simplement et modéré)</stage>
+                  <l>"Un soir, je l'ai trouvée tout en pleurs au bord d'une fontaine,</l>
+                  <l>dans la forêt où je m'étais perdu.</l>
+                  <l>Je ne sais ni son âge, ni qui elle est, ni d'où elle vient</l>
+                  <l>et je n'ose pas l'interroger, car elle doit avoir eu une grande épouvante,</l>
+                  <l>et quand on lui demande ce qui lui est arrivée,</l>
+                  <l>elle pleure tout à coup comme un enfant, et sanglote</l>
+                  <stage>(d'une voix étouffée)</stage>
+                  <l>si profondément qu'on a peur.</l>
+                  <l>Il y a maintenant six mois que je l'ai épousée</l>
+                  <l>et je n'en sais pas plus que le jour de notre rencontre,</l>
+                  <l>En attendant, mon cher Pelléas, toi que j'aime plus qu'un frère,</l>
+                  <l>bien que nous ne soyons pas nés du même père ;</l>
+                  <l>en attendant, prépare mon retour...</l>
+                  <stage>(avec une émotion contenue)</stage>
+                  <l>Je sais que ma mère ma pardonnera volontiers.</l>
+                  <l>Mais j'ai peur d'Arkel, malgré toute sa bonté.</l>
+                  <l>S'il consent néanmoins à l'accueillir, comme il accueillerait sa propre
+                     fille,</l>
+                  <l>le troisième soir qui suivra cette lettre,</l>
+                  <l>allume une lampe au sommet de la tour qui regarde la mer.</l>
+                  <l>Je l'apercevrai du pont de notre navire,</l>
+                  <l>sinon j'irai plus loin et ne reviendrai plus..."</l>
+                  <l>Qu'en dites-vous?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Arkel</speaker>
+                  <l>Je n'en dis rien.</l>
+                  <l>Cela peut nous paraître étrange,</l>
+                  <l>parce que nous ne voyons jamais que l'envers des destinées,</l>
+                  <l>l'envers même de la nôtre...</l>
+                  <l>Il avait toujours suivi mes conseils jusqu'ici,</l>
+                  <l>j'avais cru le rendre heureux en l'envoyant</l>
+                  <l>demander la main de la princesse Ursule...</l>
+                  <l>Il ne pouvait pas rester seul,</l>
+                  <l>et depuis la mort de sa femme il était triste d'être seul;</l>
+                  <l>et ce mariage allait mettre fin à de longues guerres, à de vieilles
+                     haines...</l>
+                  <l>Il ne l'a pas voulu ainsi.</l>
+                  <stage>(avec une émotion grave)</stage>
+                  <l>Qu'il en soit comme il l'a voulu :</l>
+                  <l>je ne me suis jamais mis en travers d'une destinée;</l>
+                  <l>il sait mieux que moi son avenir.</l>
+                  <l>Il n'arrive peut-être pas d'événements inutiles.</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Geneviève</speaker>
+                  <l>Il a toujours été si prudent, si grave et si ferme...</l>
+                  <l>Depuis la mort de sa femme il ne vivait plus</l>
+                  <l>que pour son fils, le petit Yniold.</l>
+                  <l>Il a tout oublié...</l>
+                  <l>Qu'allons-nous faire ?</l>
+               </sp>
+               <stage>(Entre Pelléas.)</stage>
+
+               <sp n="4">
+                  <speaker>Arkel</speaker>
+                  <l>Qui est-ce qui entre là?</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Geneviève</speaker>
+                  <l>C'est Pelléas.</l>
+                  <l>Il a pleuré.</l>
+               </sp>
+               <sp n="6">
+                  <speaker>Arkel</speaker>
+                  <l>Est-ce toi, Pelléas ?</l>
+                  <l>Viens un peu plus près que je te voie dans la lumière.</l>
+               </sp>
+               <sp n="7">
+                  <speaker>Pelléas</speaker>
+                  <l>Grand-père, j'ai reçu en même temps</l>
+                  <l>que la lettre de mon frère une autre lettre;</l>
+                  <l>Une lettre de mon ami Marcellus...</l>
+                  <l>Il va mourir et il m'appelle...</l>
+                  <l>Il dit qu'il sait exactement le jour où la mort doit venir...</l>
+                  <l>Il me dit que je puis arriver avant elle si je veux,</l>
+                  <l>mais qu'il n'y a pas de temps à perdre.</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Arkel</speaker>
+                  <l>Il faudrait attendre quelque temps cependant,</l>
+                  <l>Nous ne savons pas ce que le retour de ton frère nous prépare</l>
+                  <l>Et d'ailleurs ton père n'est il pas ici, au-dessus de nous,</l>
+                  <l>plus malade peut-être que ton ami...</l>
+                  <l>Pourras-tu choisir entre le père et l'ami ?...</l>
+                  <stage>(Il sort.)</stage>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Geneviève</speaker>
+                  <l>Aie soin d'allumer la lampe dès ce soir Pelléas.</l>
+               </sp>
+               <stage>(Ils sortent séparément.)</stage>
+            </div>
+
+            <div type="scene" n="3">
+               <head>Scène 3</head>
+               <stage>Devant le château</stage>
+
+               <stage>(Entrent Geneviève et Mélisande.)</stage>
+
+               <sp n="1">
+                  <speaker>Mélisande</speaker>
+                  <l>Il fait sombre dans les jardins.</l>
+                  <l>Et quelles forêts, quelles forêts tout autour des palais!</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Geneviève</speaker>
+                  <l>Oui; cela m'étonnait aussi quand je suis arrivée ici,</l>
+                  <l>et cela étonne tout le monde.</l>
+                  <l>Il y a des endroits où l'on ne voit jamais le soleil.</l>
+                  <l>Mais l'on s'y fait si vite...</l>
+                  <l>Il y a longtemps, il y a longtemps...</l>
+                  <l>Il y a presque quarante ans que je vis ici...</l>
+                  <l>Regardez de l'autre côté, vous aurez la clarté de la mer.</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Mélisande</speaker>
+                  <l>J'entends du bruit au-dessous de nous...</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Geneviève</speaker>
+                  <l>Oui; c'est quelqu'un qui monte vers nous...</l>
+                  <l>Ah! c'est Pelléas...</l>
+                  <l>Il semble encore fatigué de vous avoir attendue si longtemps...</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Mélisande</speaker>
+                  <l>Il ne nous a pas vues.</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Geneviève</speaker>
+                  <l>Je crois qu'il nous a vues, mais il ne sait ce qu'il doit faire.</l>
+                  <l>Pelléas, Pelléas, est-ce toi?</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui! je venais du côté de la mer...</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Geneviève</speaker>
+                  <l>Nous aussi, nous cherchions la clarté.</l>
+                  <l>Ici il fait un peu plus clair qu'ailleurs, et cependant la mer est sombre.</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Pelléas</speaker>
+                  <l>Nous aurons une tempête cette nuit;</l>
+                  <l>il y en a toutes les nuits depuis quelques temps</l>
+                  <l>et cependant elle est si calme maintenant!</l>
+                  <l>On s'embarque sans le savoir et l'on ne reviendrait plus.</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Voix derrière la coulisse</speaker>
+                  <l>Hoé! hisse hoé!</l>
+                  <l>Hoé!</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Mélisande</speaker>
+                  <l>Quelque chose sort du port...</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Pelléas</speaker>
+                  <l>Il faut que ce soit un grand navire...</l>
+                  <l>Les lumières sont très hautes,</l>
+                  <l>nous le verrons tout à l'heure quand il entrera dans la bande de clarté.</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Voix derrière la coulisse</speaker>
+                  <l>Hoé! hisse hoé!</l>
+                  <l>Hoé!</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Geneviève</speaker>
+                  <l>Je ne sais si nous pourrons le voir...il y a encore une brume sur la mer.</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Pelléas</speaker>
+                  <l>On dirait que la brume s'élève lentement...</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, j'aperçois là-bas une petite lumière que je n'avais pas vue...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est un phare; il y en a d'autres que nous ne voyons pas encore.</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Le navire est dans la lumière...il est déjà bien loin.</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Pelléas</speaker>
+                  <l>Il s'éloigne à toutes voiles...</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>C'est le navire qui m'a menée ici.</l>
+                  <l>Il a de grandes voiles...</l>
+                  <l>Je le reconnais à ses voiles...</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Voix derrière la coulisse</speaker>
+                  <l>Hisse hoé!</l>
+                  <l>Hoé!</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Pelléas</speaker>
+                  <l>Il aura mauvaise mer cette nuit...</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Voix derrière la coulisse</speaker>
+                  <l>Hisse hoé!</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi s'en va-t-il cette nuit?</l>
+                  <l>On ne le voit presque plus.</l>
+                  <l>Il fera peut-être naufrage!</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Pelléas</speaker>
+                  <l>La nuit tombe très vite...</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Voix derrière la coulisse</speaker>
+                  <stage>(à bouche fermée encore plus loin)</stage>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Geneviève</speaker>
+                  <l>Il est temps de rentrer.</l>
+                  <l>Pelléas montre la route à Mélisande.</l>
+                  <l>Il faut que j'aille voir, un instant le petit Yniold.</l>
+                  <stage>(Elle sort.)</stage>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Pelléas</speaker>
+                  <l>On ne voit plus rien sur la mer...</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Mélisande</speaker>
+                  <l>Je vois d'autres lumières.</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Pelléas</speaker>
+                  <l>Ce sont les autres phares.</l>
+                  <l>Entendez-vous la mer?</l>
+                  <l>C'est le vent qui s'élève...</l>
+                  <l>Descendons par ici.</l>
+                  <l>Voulez-vous me donner la main?</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Mélisande</speaker>
+                  <l>Voyez, voyez j'ai les mains pleines de fleurs.</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Pelléas</speaker>
+                  <l>Je vous soutiendrai par le bras, le chemin est escarpé et il y fait très
+                     sombre.</l>
+                  <l>Je pars peut-être demain.</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh!...pourquoi partez-vous?</l>
+               </sp>
+
+               <stage>(Ils sortent.)</stage>
+            </div>
+         </div>
+
+         <div type="act" n="2">
+            <head>Acte 2</head>
+
+            <div type="scene" n="1">
+               <head>Scène 1</head>
+               <stage>Une fontaine dans le parc</stage>
+
+               <stage>(Entrant Pelléas et Mélisande.)</stage>
+
+               <sp n="1">
+                  <speaker>Pelléas</speaker>
+                  <l>Vous ne savez pas où je vous ai menée?</l>
+                  <l>Je viens souvent m'asseoir ici vers midi,</l>
+                  <l>lorsqu'il fait trop chaud dans les jardins.</l>
+                  <l>On étouffe aujourd'hui, même à l'ombre des arbres.</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! l'eau est claire...</l>
+               </sp>
+               <sp n="3">
+                  <speaker>Pelléas</speaker>
+                  <l>Elle est fraîche comme l'hiver.</l>
+                  <l>C'est une vieille fontaine abandonnée.</l>
+                  <l>Il parait que c'était une fontaine miraculeuse,</l>
+                  <l>elle ouvrait les yeux des aveugles,</l>
+                  <l>on l'appelle encore "la fontaine des aveugles."</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Mélisande</speaker>
+                  <l>Elle n'ouvre plus les yeux des aveugles?</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Pelléas</speaker>
+                  <l>Depuis que le roi est presque aveugle lui-même, on n'y vient plus...</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Mélisande</speaker>
+                  <l>Comme on est seul ici...on n'entend rien.</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Pelléas</speaker>
+                  <l>Il y a toujours un silence extraordinaire...</l>
+                  <l>On entendrait dormir l'eau...</l>
+                  <l>Voulez-vous vous asseoir au bord du bassin de marbre ?</l>
+                  <l>Il y a un tilleul où le soleil n'entre jamais...</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Mélisande</speaker>
+                  <l>Je vais me coucher sur le marbre.</l>
+                  <l>Je voudrais voir le fond de l'eau...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Pelléas</speaker>
+                  <l>On ne l'a jamais vu...</l>
+                  <l>Elle est peut-être aussi profonde que la mer.</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Si quelque chose brillait au fond, on le verrait peut-être.</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Pelléas</speaker>
+                  <l>Ne vous penchez pas ainsi.</l>
+               </sp>
+               <sp n="12">
+                  <speaker>Mélisande</speaker>
+                  <l>Je voudrais toucher l'eau...</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Pelléas</speaker>
+                  <l>Prenez garde de glisser...</l>
+                  <l>Je vais vous tenir par la main...</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non,</l>
+                  <l>Je voudrais y plonger les deux mains...</l>
+                  <l>On dirait que mes mains sont malades aujourd'hui...</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! oh!</l>
+                  <l>Prenez garde ! prenez garde !</l>
+                  <l>Mélisande! Mélisande! Mélisande!</l>
+                  <l>Oh! votre chevelure ! ...</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <stage>(se redressant)</stage>
+                  <l>Je ne peux pas, je ne peux pas l'atteindre !</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Pelléas</speaker>
+                  <l>Vos cheveux ont plongé dans l'eau...</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, ils sont plus longs que mes bras...ils sont plus longs que moi...</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est au bord d'une fontaine aussi qu'il vous a trouvée?</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui...</l>
+               </sp>
+               <sp n="21">
+                  <speaker>Pelléas</speaker>
+                  <l>Que vous a-t-il dit?</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Mélisande</speaker>
+                  <l>Rien, je ne me rappelle plus...</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Pelléas</speaker>
+                  <l>Etait-il tout près de vous?</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, il voulait m'embrasser...</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Pelléas</speaker>
+                  <l>Et vous ne vouliez pas?</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Mélisande</speaker>
+                  <l>Non.</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Pelléas</speaker>
+                  <l>Pourquoi ne vouliez-vous pas?</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! oh! j'ai vu passer quelque chose au fond de l'eau...</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Pelléas</speaker>
+                  <l>Prenez garde ! prenez garde !</l>
+                  <l>Vous allez tomber !</l>
+                  <l>Avec quoi jouez-vous ?</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Mélisande</speaker>
+                  <l>Avec l'anneau qu'il m'a donné.</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Pelléas</speaker>
+                  <l>Ne jouez pas ainsi au-dessus d'une eau si profonde...</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Mélisande</speaker>
+                  <l>Mes mains ne tremblent pas</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Pelléas</speaker>
+                  <l>Comme il brille au soleil !</l>
+                  <l>Ne le jetez pas si haut vers le ciel !</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh !</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Pelléas</speaker>
+                  <l>Il est tombé !</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Mélisande</speaker>
+                  <l>Il est tombé dans l'eau !</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Pelléas</speaker>
+                  <l>Où est-il ? Où est-il ?</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne le vois pas descendre...</l>
+               </sp>
+               <sp n="39">
+                  <speaker>Pelléas</speaker>
+                  <l>Je crois la voir briller !</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Ma bague ?</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui, oui; là-bas...</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh ! oh !</l>
+                  <l>Elle est si loin de nous !</l>
+                  <l>Non, non, ce n'est pas elle...ce n'est plus elle.</l>
+                  <l>Elle est perdue...perdue...</l>
+                  <l>Il n'y a plus qu'un grand cercle sur l'eau...</l>
+                  <l>Qu'allons-nous faire maintenant?</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Pelléas</speaker>
+                  <l>Il ne faut pas s'inquiéter ainsi pour une bague.</l>
+                  <l>Ce n'est rien, nous la retrouverons peut-être !</l>
+                  <l>Ou bien nous en retrouverons une autre.</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, nous ne la retrouverons plus,</l>
+                  <l>nous n'en trouverons pas d'autres non plus...</l>
+                  <l>Je croyais l'avoir dans les mains cependant...</l>
+                  <l>J'avais déjà fermé les mains, et elle est tombée malgré tout...</l>
+                  <l>Je l'ai jetée trop haut du côté du soleil.</l>
+               </sp>
+
+               <sp n="45">
+                  <speaker>Pelléas</speaker>
+                  <l>Venez, nous reviendrons un autre jour.</l>
+                  <l>Venez, il est temps.</l>
+                  <l>On irait à notre rencontre.</l>
+                  <l>Midi sonnait au moment où l'anneau est tombé...</l>
+               </sp>
+
+               <sp n="46">
+                  <speaker>Mélisande</speaker>
+                  <l>Qu'allons-nous dire à Golaud s'il demande où il est ?</l>
+               </sp>
+
+               <sp n="47">
+                  <speaker>Pelléas</speaker>
+                  <l>La vérité, la vérité...</l>
+               </sp>
+
+               <stage>(Ils sortent.)</stage>
+            </div>
+
+            <div type="scene" n="2">
+               <head>Scène 2</head>
+               <stage>Un appartement dans le château</stage>
+
+               <stage>(On découvre Golaud étendu sur son lit; Mélisande est à son chevet.)</stage>
+
+               <sp n="1">
+                  <speaker>Golaud</speaker>
+                  <l>Ah! ah! tout va bien, cela ne sera rien.</l>
+                  <l>Mais je ne puis m'expliquer comment cela s'est passé.</l>
+                  <l>Je chassais tranquillement dans la forêt.</l>
+                  <l>Mon cheval s'est emporté tout à coup, sans raison...</l>
+                  <l>A-t-il vu quelque chose d'extraordinaire ?</l>
+                  <stage>(En s'animant peu à peu et sourdement agité.)</stage>
+                  <l>Je venais d'entendre sonner les douze coups de midi.</l>
+                  <l>Au douzième coup, il s'effraie subitement</l>
+                  <l>et court comme un aveugle fou contre un arbre !</l>
+                  <stage>(en se calmant)</stage>
+                  <l>Je ne sais plus ce qui est arrivé.</l>
+                  <l>Je suis tombé, et lui doit être tombé sur moi;</l>
+                  <l>je croyais avoir toute la forêt sur la poitrine.</l>
+                  <l>Je croyais que mon cœur était déchiré.</l>
+                  <l>Mais mon coeur est solide.</l>
+                  <l>Il paraît que ce n'est rien...</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Voulez-vous boire un peu d'eau?</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Golaud</speaker>
+                  <l>Merci, je n'ai pas soif.</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Mélisande</speaker>
+                  <l>Voulez-vous un autre oreiller?</l>
+                  <l>Il y a une petite tache de sang sur celui-ci.</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Golaud</speaker>
+                  <l>Non; ce n'est pas la peine.</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Mélisande</speaker>
+                  <l>Est-ce bien sûr?</l>
+                  <l>Vous ne souffrez pas trop?</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Golaud</speaker>
+                  <l>Non, non, j'en ai vu bien d'autres.</l>
+                  <l>Je suis fait au fer et au sang.</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Mélisande</speaker>
+                  <l>Fermez les yeux et tâchez de dormir.</l>
+                  <l>Je resterai ici toute la nuit...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Golaud</speaker>
+                  <l>Non, non, je ne veux pas que tu te fatigues ainsi.</l>
+                  <l>Je n'ai besoin de rien, je dormirai comme un enfant...</l>
+                  <l>Qu'y-a-t-il, Mélisande?</l>
+                  <l>Pourquoi pleures-tu tout à coup?</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Je suis...</l>
+                  <l>Je suis malade ici...</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Golaud</speaker>
+                  <l>Tu es malade?</l>
+                  <stage>(pause)</stage>
+                  <l>Qu'as-tu donc, qu'as-tu donc, Mélisande?</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne sais pas...</l>
+                  <l>Je suis malade ici.</l>
+                  <l>Je préfére vous le dire aujourd'hui;</l>
+                  <l>Seigneur, je ne suis pas heureuse ici...</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Golaud</speaker>
+                  <l>Qu'est-il donc arrivé?</l>
+                  <l>Quelqu'un t'a fait du mal?</l>
+                  <l>Quelqu'un t'aurait-il offensée ?</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, personne ne m'a fait le moidre mal...</l>
+                  <l>Ce n'est pas cela.</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Golaud</speaker>
+                  <l>Mais tu dois me cacher quelque chose?</l>
+                  <l>Dis-moi toute la vérité, Mélisande...</l>
+                  <l>Est-ce le roi?</l>
+                  <l>Est ce ma mère?</l>
+                  <l>Est-ce Pelléas?</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, ce n'est pas Pelléas.</l>
+                  <l>Ce n'est personne...</l>
+                  <l>Vous ne pouvez pas me comprendre...</l>
+                  <l>C'est quelque chose qui est plus fort que moi...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Golaud</speaker>
+                  <l>Voyons; sois raisonnable, Mélisande.</l>
+                  <l>Que veux-tu que je fasse ?</l>
+                  <l>Tu n'es plus une enfant.</l>
+                  <l>Est-ce moi que tu voudrais quitter ?</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! non, ce n'est pas cela...</l>
+                  <l>Je voudrais m'en aller avec vous...</l>
+                  <l>C'est ici que je ne peux plus vivre...</l>
+                  <l>Je sens que je ne vivrais plus longtemps...</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Golaud</speaker>
+                  <stage>(animé)</stage>
+                  <l>Mais il faut une raison cependant.</l>
+                  <l>On va te croire folle.</l>
+                  <l>On va croire à des rêves d'enfant.</l>
+                  <l>Voyons, est-ce Pelléas, peut-être?</l>
+                  <l>Je crois qu'il ne te parle pas souvent.</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>Si, il me parle parfois.</l>
+                  <l>Il ne m'aime pas, je crois; je l'ai vu dans ses yeux...</l>
+                  <l>Mais il me parle quand il me rencontre...</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Golaud</speaker>
+                  <l>Il ne faut pas lui en vouloir.</l>
+                  <l>Il a toujours été ainsi.</l>
+                  <l>Il est un peu étrange.</l>
+                  <l>Il changera, tu verras; il est jeune...</l>
+               </sp>
+               <sp n="22">
+                  <speaker>Mélisande</speaker>
+                  <l>Mais ce n'est pas cela...ce n'est pas cela...</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Golaud</speaker>
+                  <l>Qu'est-ce donc?</l>
+                  <l>Ne peux-tu pas te faire à la vie qu'on mène ici ?</l>
+                  <l>Il est vrai que ce château est très vieux et très sombre...</l>
+                  <l>Il est très froid et très profond.</l>
+                  <l>Et tous ceux qui l'habitent sont déjà vieux.</l>
+                  <l>Et la campagne peut sembler triste aussi,</l>
+                  <l>avec toutes ces forêts, toutes ces vieilles forêts sans lumière.</l>
+                  <l>Mais on peut égayer tout cela si l'on veut.</l>
+                  <l>Et puis, la joie, la joie, on n'en a pas tous les jours.</l>
+                  <l>Mais dis-moi quelque chose;</l>
+                  <l>n'importe quoi, je ferai tout ce que tu voudras...</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, c'est vrai...on ne voit jamais le ciel ici.</l>
+                  <l>Je l'ai vu pour la première fois ce matin...</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Golaud</speaker>
+                  <l>C'est donc cela qui te fait pleurer, ma pauvre Mélisande?</l>
+                  <l>Ce n'est donc que cela?</l>
+                  <l>Tu pleures de ne pas voir le ciel?</l>
+                  <l>Voyons, tu n'est plus à l'âge où l'on peut pleurer pour ces choses...</l>
+                  <l>Et puis l'été n'est pas là ?</l>
+                  <l>Tu vas voir le ciel tous les jours.</l>
+                  <l>Et puis l'année prochaine...</l>
+                  <l>Voyons, donne-moi ta main; donne-moi tes deux petites mains.</l>
+                  <stage>(Il lui prend les mains.)</stage>
+                  <l>Oh! ces petites mains que je pourrais écraser comme des fleurs...</l>
+                  <l>Tiens, où est l'anneau que je t'avais donné ?</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Mélisande</speaker>
+                  <l>...l'anneau ?</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, la bague de nos noces, où est-elle?</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Mélisande</speaker>
+                  <l>Je crois...je crois qu'elle est tombée.</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Golaud</speaker>
+                  <l>Tombée?</l>
+                  <l>où est-elle tombée ?</l>
+                  <l>Tu ne l'as pas perdue ?</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Mélisande</speaker>
+                  <l>Non; elle est tombée...elle doit être tombée...mais je sais où elle est...</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Golaud</speaker>
+                  <l>Où est-elle?</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Mélisande</speaker>
+                  <l>Vous savez bien...vous savez bien...la grotte au bord de la mer ?</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Golaud</speaker>
+                  <l>Oui.</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Mélisande</speaker>
+                  <l>Eh bien, c'est là...</l>
+                  <l>Il faut que ce soit là...</l>
+                  <l>Oui, oui; je me rappelle.</l>
+                  <l>J'y suis allée ce matin, ramasser des coquillages pour le petit Yniold</l>
+                  <l>...</l>
+                  <l>Il y en a de très beaux...</l>
+                  <l>Elle a glissé de mon doigt...puis la mer est entrée</l>
+                  <l>et j'ai dû sortir avant de l'avoir retrouvée.</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Golaud</speaker>
+                  <l>Es-tu sûre que c'est là?</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, oui, tout a fait sûre</l>
+                  <l>Je l'ai sentie glisser...</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Golaud</speaker>
+                  <l>Il faut aller la chercher tout de suite.</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Mélisande</speaker>
+                  <l>Maintenant? Tout de suite? Dans l'obscurité?</l>
+               </sp>
+               <sp n="39">
+                  <speaker>Golaud</speaker>
+                  <l>Maintenant, tout de suite, dans l'obscurité...</l>
+                  <l>J'aimerais mieux avoir perdu tout ce que</l>
+                  <l>j'ai plutôt que d'avoir perdu cette bague...</l>
+                  <l>Tu ne sais pas ce que c'est.</l>
+                  <l>Tu ne sais pas d'où elle vient.</l>
+                  <l>La mer sera très haute cette nuit.</l>
+                  <l>La mer viendra la prendre avant toi...dépêche-toi...</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Je n'ose pas...je n'ose pas aller seule...</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Golaud</speaker>
+                  <l>Vas-y, vas-y avec n'importe qui.</l>
+                  <l>Mais il faut y aller tout de suite, entends-tu ?</l>
+                  <l>Dépêche-toi; demande à Pelléas d'y aller avec toi.</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Mélisande</speaker>
+                  <l>Pelléas ? Avec Pelléas ?</l>
+                  <l>Mais Pelléas ne voudra pas...</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Golaud</speaker>
+                  <l>Pelléas fera tout ce que tu lui demandes.</l>
+                  <l>Je connais Pelléas mieux que toi.</l>
+                  <l>Vas-y, hâte-toi.</l>
+                  <stage>(un peu retenu et avec beaucoup d'accent)</stage>
+                  <l>Je ne dormirai pas avant d'avoir la bague.</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! Oh! Je ne suis pas heureuse,</l>
+                  <l>Je ne suis pas heureuse.</l>
+                  <stage>(Elle sort en pleurant.)</stage>
+               </sp>
+            </div>
+
+            <div type="scene" n="3">
+               <head>Scène 3</head>
+               <stage>Devant une grotte</stage>
+
+               <stage>(Entrent Pelléas et Mélisande.)</stage>
+
+               <sp n="1">
+                  <speaker>Pelléas</speaker>
+                  <stage>(parlant avec une grande agitation)</stage>
+                  <l>Oui; c'est ici, nous y sommes.</l>
+                  <l>Il fait si noir que l'entrée de la grotte</l>
+                  <l>ne se distingue plus du reste de la nuit...</l>
+                  <l>Il n'y a pas d'étoiles de ce côté.</l>
+                  <l>Attendons que la lune ait déchiré</l>
+                  <l>ce grand nuage elle éclairera toute la grotte</l>
+                  <l>et alors nous pourrons entrer sans danger.</l>
+                  <l>Il y a des endroits dangereux et le sentier est très étroit,</l>
+                  <l>entre deux lacs dont on n'a pas encore trouvé le fond.</l>
+                  <l>Je n'ai pas songé à emporter une torche ou une lanterne.</l>
+                  <l>Mais je pense que la clarté du ciel nous suffira.</l>
+                  <l>Vous n'avez jamais pénétré dans cette grotte ?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Non...</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Pelléas</speaker>
+                  <l>Entrons-y...</l>
+                  <l>Il faut pouvoir décrire l'endroit où vous avez perdu la bague,</l>
+                  <l>s'il vous interroge.</l>
+                  <l>Elle est très grande et très belle,</l>
+                  <l>elle est pleine de ténèbres bleues.</l>
+                  <l>Quand on y allume une petite lumière,</l>
+                  <l>on dirait que la voûte est couverte d'étoiles, comme le ciel.</l>
+                  <l>Donnez-moi la main, ne tremblez pas ainsi.</l>
+                  <l>Il n'y a pas de danger; nous nous arrêterons au moment</l>
+                  <l>où nous n'apercevrons plus la clarté de la mer...</l>
+                  <l>Est-ce le bruit de la grotte qui vous effraie?</l>
+                  <l>Entendez-vous la mer derrière nous?</l>
+                  <l>Elle ne semble pas heureuse cette nuit...</l>
+               </sp>
+               <stage>(La lune éclaire largement l'entrée et une partie des ténèbres de la grotte,
+                  et l'on aperçoit trois vieux pauvres à cheveux blancs, assis côte à côte, se
+                  soutenant les uns les autres et endormis contre un quartier de roc.)</stage>
+
+               <sp n="4">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! voici la clarté !</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Mélisande</speaker>
+                  <l>Ah!</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Pelléas</speaker>
+                  <l>Qu'y a-t-il ?</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Mélisande</speaker>
+                  <l>Il y a...</l>
+                  <stage>(Elle montre les trois pauvres)</stage>
+                  <l>Il y a...</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui...je les ai vus aussi...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Mélisande</speaker>
+                  <l>Allons-nous en ! Allons-nous en !</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Pelléas</speaker>
+                  <l>Ce sont trois vieux pauvres qui se sont endormis...</l>
+                  <l>Il y a une famine dans le pays...</l>
+                  <l>Pourquoi sont-ils venus dormir ici ?</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Mélisande</speaker>
+                  <l>Allons-nous en; venez...</l>
+                  <l>Allons-nous en !</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Pelléas</speaker>
+                  <l>Prenez-garde, ne parlez pas si haut...</l>
+                  <l>Ne les éveillons pas...</l>
+                  <l>Ils dorment encore profondément...</l>
+                  <l>Venez.</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Mélisande</speaker>
+                  <l>Laissez-moi; je préfère marcher seule...</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Pelléas</speaker>
+                  <l>Nous reviendrons un autre jour...</l>
+               </sp>
+               <stage>(Il sortent.)</stage>
+            </div>
+         </div>
+
+         <div type="act" n="3">
+            <head>Acte 3</head>
+
+            <div type="scene" n="1">
+               <head>Scène 1</head>
+               <stage>Une des tours du château</stage>
+
+               <stage>(Un chemin de ronde passe sous une fenêtre de la tour.)</stage>
+
+               <sp n="1">
+                  <speaker>Mélisande</speaker>
+                  <stage>(à la fenêtre tandis qu'elle peigne ses cheveux dénoués)</stage>
+                  <l>Mes longs cheveux descendent jusqu'au seuil de la tour;</l>
+                  <l>Mes cheveux vous attendent tout le long de la tour,</l>
+                  <l>Et tout le long du jour,</l>
+                  <l>Et tout le long du jour.</l>
+                  <l>Saint Daniel et Saint Michel,</l>
+                  <l>Saint Michel et Saint Raphaël,</l>
+                  <l>Je suis née un dimanche,</l>
+                  <l>Un dimanche à midi...</l>
+               </sp>
+               <stage>(Entre Pelléas par le chemin de ronde.)</stage>
+
+               <sp n="2">
+                  <speaker>Pelléas</speaker>
+                  <l>Holé! Holé! ho!</l>
+               </sp>
+               <sp n="3">
+                  <speaker>Mélisande</speaker>
+                  <l>Qui est là?</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Pelléas</speaker>
+                  <l>Moi, moi, et moi!</l>
+                  <l>Que fais-tu là, à la fenêtre,</l>
+                  <l>en chantant comme un oiseau qui n'est pas d'ici ?</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Mélisande</speaker>
+                  <l>J'arrange mes cheveux pour la nuit...</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est là ce que je vois sur le mur ?</l>
+                  <l>Je croyais que tu avais de la lumière...</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Mélisande</speaker>
+                  <l>J'ai ouvert la fenêtre; il fait trop chaud dans la tour...</l>
+                  <l>Il fait beau cette nuit.</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Pelléas</speaker>
+                  <l>Il y a d'innombrables étoiles; je n'en ai jamais vu autant que ce soir;</l>
+                  <l>mais la lune est encore sur la mer...</l>
+                  <l>Ne reste pas dans l'ombre, Mélisande, penche-toi un peu,</l>
+                  <l>que je voie tes cheveux dénoués.</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Mélisande</speaker>
+                  <l>Je suis affreuse ainsi...</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! oh! Mélisande,</l>
+                  <l>Oh! tu es belle ! Tu es belle ainsi ! Penche-toi!</l>
+                  <l>Penche-toi ! Laisse-moi venir plus près de toi...</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne puis pas venir plus près de toi...</l>
+                  <l>Je me penche tant que je peux...</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Pelléas</speaker>
+                  <l>Je ne puis pas monter plus haut...</l>
+                  <l>donne-moi du moins ta main ce soir avant que je m'en aille...</l>
+                  <l>Je pars demain.</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, non...</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Pelléas</speaker>
+                  <l>Si, si, je pars, je partirai demain...donne-moi ta main,</l>
+                  <l>ta main, ta petite main sur les lèvres...</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne te donne pas ma main si tu pars...</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Pelléas</speaker>
+                  <l>Donne, donne, donne...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Mélisande</speaker>
+                  <l>Tu ne partiras pas ?</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Pelléas</speaker>
+                  <l>J'attendrai, j'attendrai...</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Mélisande</speaker>
+                  <l>Je vois une rose dans les ténèbres...</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Pelléas</speaker>
+                  <l>Où donc ?</l>
+                  <l>Je ne vois que les branches du saule qui dépassent le mur...</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Mélisande</speaker>
+                  <l>Plus bas, plus bas, dans le jardin; là-bas, dans le vert sombre...</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Pelléas</speaker>
+                  <l>Ce n'est pas une rose...</l>
+                  <l>J'irai voir tout à l'heure, mais donne-moi ta main d'abord;</l>
+                  <l>d'abord ta main...</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Mélisande</speaker>
+                  <l>Voilà, voilà, je ne puis pas me pencher davantage.</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Pelléas</speaker>
+                  <l>Mes lèvres ne peuvent pas atteindre ta main!</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne puis me pencher davantage...</l>
+                  <l>Je suis sur le point de tomber...</l>
+                  <l>Oh! Oh! mes cheveux descendent de la tour !</l>
+                  <stage>(Sa chevelure se révulse tout à coup tandis qu'elle se penche ainsi, et
+                     inonde Pelléas.)</stage>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! oh! qu'est-ce que c'est? tes cheveux, tes cheveux descendent vers moi !</l>
+                  <l>Toute ta chevelure, Mélisande, toute ta chevelure est tombée de la tour !</l>
+                  <stage>(moins vite et passionnément contenu)</stage>
+                  <l>Je les tiens dans les mains, je les tiens dans la bouche...</l>
+                  <l>Je les tiens dans le bras, je les mets autour de mon cou...</l>
+                  <l>Je n'ouvrirai plus les mains cette nuit !</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Mélisande</speaker>
+                  <l>Laisse-moi ! laisse-moi ! Tu vas me faire tomber !</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Pelléas</speaker>
+                  <l>Non, non, non!</l>
+                  <l>Je n'ai jamais vu de cheveux comme les tiens, Mélisande!</l>
+                  <l>Vois, vois, vois, ils viennent de si haut</l>
+                  <l>et ils m'inondent encore jusqu'au coeur;</l>
+                  <l>Ils m'inondent encore jusqu'aux genoux!</l>
+                  <l>Et ils sont doux, ils sont doux comme s'ils tombaient du ciel!</l>
+                  <l>Je ne vois plus le ciel à travers tes cheveux.</l>
+                  <l>Tu vois, tu vois ? Mes deux mains ne peuvent pas les tenir;</l>
+                  <l>il y en a jusque sur les branches du saule...</l>
+                  <l>Ils vivent comme des oiseaux dans mes mains,</l>
+                  <l>et ils m'aiment, ils m'aiment plus que toi!</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Mélisande</speaker>
+                  <l>Laisse-moi, laisse-moi...</l>
+                  <l>Quelqu'un pourrait venir...</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Pelléas</speaker>
+                  <l>Non, non, non, je ne te délivre pas cette nuit...</l>
+                  <l>Tu es ma prisonnière cette nuit, toute la nuit, toute la nuit...</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Mélisande</speaker>
+                  <l>Pelléas! Pelléas!</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Pelléas</speaker>
+                  <l>Je les noue, je les noue aux branches du saule...</l>
+                  <l>Tu ne t'en iras plus...tu ne t'en iras plus...</l>
+                  <l>regarde, regarde, j'embrasse tes cheveux...</l>
+                  <l>Je ne souffre plus au milieu de tes cheveux...</l>
+                  <l>Tu entends mes baisers le long de tes cheveux ?</l>
+                  <l>Ils montent le long de tes cheveux...</l>
+                  <l>Il faut que chacun t'en apporte...</l>
+                  <l>Tu vois, tu vois, je puis ouvrir les mains...</l>
+                  <l>J'ai les mains libres et tu ne peux plus m'abandonner...</l>
+               </sp>
+               <stage>(Des colombes sortent de la tour et volent autour d'eux dans la nuit.)</stage>
+
+               <sp n="33">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! oh! tu m'as fait mal !</l>
+                  <l>Qu'y a-t-il Pelléas ?</l>
+                  <l>Qu'est-ce qui vole autour de moi ?</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Pelléas</speaker>
+                  <l>Ce sont les colombes qui sortent de la tour...</l>
+                  <l>Je les ai effrayées; elles s'envolent...</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Mélisande</speaker>
+                  <l>Ce sont mes colombes, Pelléas.</l>
+                  <l>Allons-nous-en, laisse-moi ; elles ne reviendraient plus...</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Pelléas</speaker>
+                  <l>Pourquoi ne reviendraient-elles plus?</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Mélisande</speaker>
+                  <l>Elles se perdront dans l'obscurité...</l>
+                  <l>Laisse-moi! laisse-moi relever la tête...</l>
+                  <l>J'entends un bruit de pas...</l>
+                  <l>Laisse-moi !</l>
+                  <l>C'est Golaud! Je crois que c'est Golaud !</l>
+                  <l>Il nous a entendus...</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Pelléas</speaker>
+                  <l>Attends! Attends!</l>
+                  <l>Tes cheveux son autour des branches...</l>
+                  <l>Ils se sont accrochés dans l'obscurité...</l>
+                  <l>Attends ! Attends !</l>
+                  <stage>(Entre Golaud par le chemin de ronde.)</stage>
+                  <l>Il fait noir.</l>
+               </sp>
+
+               <sp n="39">
+                  <speaker>Golaud</speaker>
+                  <l>Que faites-vous ici?</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Ce que je fais ici?</l>
+                  <l>Je...</l>
+               </sp>
+               <sp n="41">
+                  <speaker>Golaud</speaker>
+                  <l>Vous êtes des enfants...</l>
+                  <l>Mélisande, ne te penche pas ainsi à la fenêtre, tu vas tomber...</l>
+                  <l>Vous ne savez pas qu'il est tard?</l>
+                  <l>Il est près de minuit.</l>
+                  <l>Ne jouez pas ainsi dans l'obscurité.</l>
+                  <l>Vous êtes des enfants...</l>
+                  <stage>(riant nerveusement)</stage>
+                  <l>Quels enfants!</l>
+                  <l>Quels enfants!</l>
+                  <stage>(Il sort avec Pelléas.)</stage>
+               </sp>
+            </div>
+
+            <div type="scene" n="2">
+               <head>Scène 2</head>
+               <stage>Les souterrains du château</stage>
+
+               <stage>(Entrent Golaud et Pelléas.)</stage>
+
+               <sp n="1">
+                  <speaker>Golaud</speaker>
+                  <l>Prenez garde; par ici, par ici.</l>
+                  <l>Vous n'avez jamais pénétré dans ces souterrains ?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Pelléas</speaker>
+                  <l>Si, une fois; dans le temps; mais il y a longtemps...</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Golaud</speaker>
+                  <l>Eh bien, voici l'eau stagnante dont je vous parlais...</l>
+                  <l>Sentez-vous l'odeur de mort qui monte ?</l>
+                  <l>Allons jusqu'au bout de ce rocher qui surplombe et penchez-vous un peu;</l>
+                  <l>elle viendra vous frapper au visage.</l>
+                  <l>Penchez-vous; n'ayez pas peur...je vous tiendrai, donnez-moi...</l>
+                  <l>Non, non, pas la main...elle pourrait glisser...le bras.</l>
+                  <l>Voyez-vous le gouffre, Pelléas ?</l>
+                  <stage>(troublé)</stage>
+                  <l>Pelléas ?</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui, je crois que je vois le fond du gouffre !</l>
+                  <stage>(avec une sourde agitation)</stage>
+                  <l>Est-ce la lumière qui tremble ainsi ?</l>
+                  <l>(Il se redresse, se retourne et regarde Golaud.)</l>
+                  <l>Vous...</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, c'est la lanterne...</l>
+                  <l>Voyez, je l'agitais pour éclairer les parois...</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Pelléas</speaker>
+                  <l>J'étouffe ici...sortons.</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, sortons.</l>
+               </sp>
+
+               <stage>(Ils sortent en silence.)</stage>
+            </div>
+
+            <div type="scene" n="3">
+               <head>Scène 3</head>
+               <stage>Une terrasse au sortir des souterrains</stage>
+
+               <stage>(Entrent Golaud et Pelléas.)</stage>
+
+               <sp n="1">
+                  <speaker>Pelléas</speaker>
+                  <l>Ah! je respire enfin ! J'ai cru, un instant,</l>
+                  <l>que j'allais me trouver mal dans ces énormes grottes;</l>
+                  <l>j'ai été sur le point de tomber...</l>
+                  <l>Il y a là un air humide et lourd comme une rosée de plomb</l>
+                  <l>et des ténèbres épaisses comme une pâte empoisonnée.</l>
+                  <l>Et maintenant, tout l'air de toute la mer !</l>
+                  <l>Il y a un vent frais, voyez, frais comme une feuille qui vient de s'ouvrir,</l>
+                  <l>sur les petites lames vertes.</l>
+                  <l>Tiens !</l>
+                  <l>On vient d'arroser les fleurs au bord de la terrasse</l>
+                  <l>et l'odeur de la verdure et des roses mouillées monte jusqu'ici.</l>
+                  <l>Il doit être près de midi; elles sont déjà dans l'ombre de la tour...</l>
+                  <l>Il est midi, j'entends sonner les cloches</l>
+                  <l>et les enfants descendent vers la plage pour se baigner...</l>
+                  <l>Tiens, voilà notre mère et Mélisande à une fenêtre de la tour...</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, elles se sont réfugiées du côté de l'ombre.</l>
+                  <l>A propos de Mélisande, j'ai entendu ce qui s'est passé</l>
+                  <l>et ce qui s'est dit hier au soir.</l>
+                  <l>Je le sais bien, ce sont là jeux d'enfants;</l>
+                  <l>mais il ne faut pas que cela se répète.</l>
+                  <l>Elle est très délicate, et il faut qu'on la ménage d'autant</l>
+                  <l>plus qu'elle sera peut-être bientôt mère,</l>
+                  <l>et la moindre émotion pourrait amener un malheur.</l>
+                  <l>Ce n'est pas la première fois que je remarque qu'il pourrait</l>
+                  <l>y avoir quelque chose entre vous...</l>
+                  <l>Vous êtes plus âgé qu'elle, il suffira de vous l'avoir dit...</l>
+                  <l>Evitez-la autant que possible; mais sans affectation,</l>
+                  <l>d'ailleurs, sans affectation...</l>
+               </sp>
+               <stage>(Ils sortent.)</stage>
+            </div>
+
+            <div type="scene" n="4">
+               <head>Scène 4</head>
+               <stage>Devant le château</stage>
+
+               <stage>(Entrent Golaud et le petit Yniold.)</stage>
+
+               <sp n="1">
+                  <speaker>Golaud</speaker>
+                  <stage>(affectant un très grand calme)</stage>
+                  <l>Viens, nous allons nous asseoir ici, Yniold; viens sur mes genoux;</l>
+                  <l>nous verrons d'ici ce qui se passe dans la forêt.</l>
+                  <l>Je ne te vois plus du tout depuis quelque temps.</l>
+                  <l>Tu m'abandonnes aussi; tu es toujours chez petite mère...</l>
+                  <l>Tiens, nous sommes tout juste assis sous les fenêtres de petite mère,</l>
+                  <l>Elle fait peut-être sa prière du soir en ce moment...</l>
+                  <l>Mais dis-moi, Yniold, elle est souvent avec ton oncle Pelléas, n'est-ce
+                     pas?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Yniold</speaker>
+                  <l>Oui, oui, toujours, petit père; quand vous n'êtes pas là.</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Golaud</speaker>
+                  <l>Ah! Tiens, quelqu'un passe avec une lanterne dans le jardin !</l>
+                  <l>Mais on m'a dit qu'ils ne s'aimaient pas...</l>
+                  <l>Il paraît qu'ils se querellent souvent...non ?</l>
+                  <l>Est-ce vrai ?</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Yniold</speaker>
+                  <l>Oui, oui, c'est vrai.</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Golaud</speaker>
+                  <l>Oui ? Ah! ah!</l>
+                  <l>Mais à propos de quoi se querellent-ils ?</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Yniold</speaker>
+                  <l>A propos de la porte.</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Golaud</speaker>
+                  <l>Comment ? A propos de la porte ?</l>
+                  <l>Qu'est-ce que tu racontes là ?</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Yniold</speaker>
+                  <l>Parce qu'elle ne peut pas être ouverte.</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Golaud</speaker>
+                  <l>Qui ne veut pas qu'elle soit ouverte ?</l>
+                  <l>Voyons pourquoi se querellent-ils ?</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Yniold</speaker>
+                  <l>Je ne sais pas, petit père, à propos de la lumière.</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Golaud</speaker>
+                  <l>Je ne te parle pas de la lumière; je te parle de la porte.</l>
+                  <l>Ne mets pas ainsi la main dans la bouche...</l>
+                  <l>Voyons...</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Yniold</speaker>
+                  <l>Petit père ! petit père !</l>
+                  <l>Je ne le ferai plus...</l>
+                  <stage>(Il pleure.)</stage>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Golaud</speaker>
+                  <l>Voyons; pourquoi pleures-tu maintenant ?</l>
+                  <l>Qu'est-il arrivé ?</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Yniold</speaker>
+                  <l>Oh! oh! petit père ! vous m'avez fait mal!</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Golaud</speaker>
+                  <l>Je t'ai fait mal ?</l>
+                  <l>Où t'ai-je fait mal?</l>
+                  <l>C'est sans le vouloir...</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Yniold</speaker>
+                  <l>Ici, ici, à mon petit bras...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Golaud</speaker>
+                  <l>C'est sans le vouloir; voyons, ne pleure plus;</l>
+                  <l>je te donnerai quelque chose demain.</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Yniold</speaker>
+                  <l>Quoi, petit père ?</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Golaud</speaker>
+                  <l>Un carquois et des flèches.</l>
+                  <l>Mais dis-moi ce que tu sais de la porte.</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Yniold</speaker>
+                  <l>De grandes flèches ?</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, de très grandes flèches.</l>
+                  <l>Mais pourquoi ne veulent-ils pas que la porte soit ouverte ?</l>
+                  <l>Voyons, réponds-moi à la fin ! non, non,</l>
+                  <l>n'ouvre pas la bouche pour pleurer,</l>
+                  <l>Je ne suis pas fâché.</l>
+                  <l>De quoi parlent-ils quand ils sont ensemble ?</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Yniold</speaker>
+                  <l>Pelléas et petite mère ?</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Golaud</speaker>
+                  <l>Oui; de quoi parlent-ils ?</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Yniold</speaker>
+                  <l>De moi; toujours de moi.</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Golaud</speaker>
+                  <l>Et que disent-ils de toi ?</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Yniold</speaker>
+                  <l>Ils disent que je serai très grand.</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Golaud</speaker>
+                  <l>Ah! misère de ma vie !</l>
+                  <l>Je suis ici comme un aveugle qui cherche son trèsor au fond de l'océan !</l>
+                  <l>Je suis ici comme un nouveau-né perdu dans la forêt et vous...</l>
+                  <l>Mais voyons, Yniold, j'étais distrait; nous allons causer sérieusement.</l>
+                  <l>Pelléas et petite mère ne parlent-ils jamais de moi quand je ne suis pas là
+                     ?</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Yniold</speaker>
+                  <l>Si, si, petit père.</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Golaud</speaker>
+                  <l>Ah!...Et que disent-ils de moi ?</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Yniold</speaker>
+                  <l>Ils disent que je deviendrai aussi grand que vous.</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Golaud</speaker>
+                  <l>Tu es toujours près d'eux ?</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Yniold</speaker>
+                  <l>Oui, oui, toujours, petit père.</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Golaud</speaker>
+                  <l>Ils ne te disent jamais d'aller jouer ailleurs ?</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Yniold</speaker>
+                  <l>Non, petit père, ils ont peur quand je ne suis pas là.</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Golaud</speaker>
+                  <l>Ils ont peur ?</l>
+                  <l>A quoi vois-tu qu'ils ont peur ?</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Yniold</speaker>
+                  <l>Ils pleurent toujours dans l'obscurité.</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Golaud</speaker>
+                  <l>Ah! ah!</l>
+               </sp>
+               <sp n="38">
+                  <speaker>Yniold</speaker>
+                  <l>Cela fait pleurer aussi...</l>
+               </sp>
+
+               <sp n="39">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, oui !</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Yniold</speaker>
+                  <l>Elle est pâle, petit père !</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Golaud</speaker>
+                  <l>Ah! ah! patience, mon Dieu, patience...</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Yniold</speaker>
+                  <l>Quoi, petit père ?</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Golaud</speaker>
+                  <l>Rien, rien, mon enfant.</l>
+                  <l>J'ai vu passer un loup dans la forêt.</l>
+                  <l>Ils s'embrassent quelque-fois ?</l>
+                  <l>Non ?...</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Yniold</speaker>
+                  <l>Qu'ils s'embrassent, petit père ?</l>
+                  <l>Non, non.</l>
+                  <l>Ah! si, petit père, si une fois...une fois qu'il pleuvait...</l>
+               </sp>
+
+               <sp n="45">
+                  <speaker>Golaud</speaker>
+                  <l>Ils se sont embrassés ?</l>
+                  <l>Mais comment, comment, se sont-ils embrassés ?</l>
+               </sp>
+
+               <sp n="46">
+                  <speaker>Yniold</speaker>
+                  <l>Comme ça, petit pére, comme ça ! ...</l>
+                  <stage>(Il lui donne un baiser sur la bouche; riant.)</stage>
+                  <l>Ah! ah! votre barbe, petit père!</l>
+                  <l>Elle pique, elle pique !</l>
+                  <l>Elle devient toute grise, petit père,</l>
+                  <l>et vos cheveux aussi, tout gris, tout gris.</l>
+                  <stage>(La fenêtre sous laquelle ils sont assis s'éclaire en ce moment et sa
+                     clarté vient tomber sur eux.)</stage>
+                  <l>Ah! ah! petite mêre a allumé sa lampe.</l>
+                  <l>Il fait clair, petit père; il fait clair...</l>
+               </sp>
+
+               <sp n="47">
+                  <speaker>Golaud</speaker>
+                  <l>Oui, il commence à faire clair.</l>
+               </sp>
+               <sp n="48">
+                  <speaker>Yniold</speaker>
+                  <l>Allons-y aussi, petit père; allons-y aussi...</l>
+               </sp>
+
+               <sp n="49">
+                  <speaker>Golaud</speaker>
+                  <l>Où veux-tu aller ?</l>
+               </sp>
+
+               <sp n="50">
+                  <speaker>Yniold</speaker>
+                  <l>Où il fait clair, petit père.</l>
+               </sp>
+
+               <sp n="51">
+                  <speaker>Golaud</speaker>
+                  <l>Non, non, mon enfant; restons encore un peu dans l'ombre...</l>
+                  <l>On ne sait pas, on ne sait pas encore...</l>
+                  <l>Je crois que Pelléas est fou...</l>
+               </sp>
+
+               <sp n="52">
+                  <speaker>Yniold</speaker>
+                  <l>Non, petit père, il n'est pas fou, mais il est très bon.</l>
+               </sp>
+
+               <sp n="53">
+                  <speaker>Golaud</speaker>
+                  <l>Veux-tu voir petite mère?</l>
+               </sp>
+
+               <sp n="54">
+                  <speaker>Yniold</speaker>
+                  <l>Oui, oui je veux la voir !</l>
+                  <stage>(En commençant presque modéré puis, peu à peu, avec une animation inquiète
+                     qui doit aller jusqu'à la fin de l'acte.)</stage>
+               </sp>
+
+               <sp n="55">
+                  <speaker>Golaud</speaker>
+                  <l>Ne fais pas de bruit; je vais te hisser jusqu'à la fenêtre,</l>
+                  <l>Elle est trop haute pour moi, bien que je sois si grand...</l>
+                  <stage>(Il soulève l'enfant.)</stage>
+                  <l>Ne fais pas le moindre bruit: petite mère aurait terriblement peur...</l>
+                  <l>La vois-tu ?</l>
+                  <l>Est-elle dans la chambre ?</l>
+               </sp>
+
+               <sp n="56">
+                  <speaker>Yniold</speaker>
+                  <l>Oui !</l>
+                  <l>Oh! il fait clair !</l>
+               </sp>
+
+               <sp n="57">
+                  <speaker>Golaud</speaker>
+                  <l>Elle est seule ?</l>
+               </sp>
+
+               <sp n="58">
+                  <speaker>Yniold</speaker>
+                  <l>Oui...non, non!</l>
+                  <l>Mon oncle Pelléas y est aussi.</l>
+               </sp>
+
+               <sp n="59">
+                  <speaker>Golaud</speaker>
+                  <l>Il...</l>
+               </sp>
+
+               <sp n="60">
+                  <speaker>Yniold</speaker>
+                  <l>Ah! ah! petit père, vous m'avez fait mal !</l>
+               </sp>
+
+               <sp n="61">
+                  <speaker>Golaud</speaker>
+                  <l>Ce n'est rien; tais-toi; je ne le ferai plus; regarde, regarde, Yniold !</l>
+                  <l>J'ai trébuché.</l>
+                  <l>Parle plus bas. Que font-ils ?</l>
+               </sp>
+
+               <sp n="62">
+                  <speaker>Yniold</speaker>
+                  <l>Ils ne font rien, petit père.</l>
+               </sp>
+
+               <sp n="63">
+                  <speaker>Golaud</speaker>
+                  <l>Sont-ils près l'un de l'autre ?</l>
+                  <l>Est-ce qu'ils parlent ?</l>
+               </sp>
+
+               <sp n="64">
+                  <speaker>Yniold</speaker>
+                  <l>Non, petit père; ils ne parlent pas.</l>
+               </sp>
+
+               <sp n="65">
+                  <speaker>Golaud</speaker>
+                  <l>Mais que font-ils? </l>
+               </sp>
+
+               <sp n="66">
+                  <speaker>Yniold</speaker>
+                  <l>Ils regardent la lumière.</l>
+               </sp>
+
+               <sp n="67">
+                  <speaker>Golaud</speaker>
+                  <l>Tous les deux ?</l>
+               </sp>
+
+               <sp n="68">
+                  <speaker>Yniold</speaker>
+                  <l>Oui, petit père.</l>
+               </sp>
+
+               <sp n="69">
+                  <speaker>Golaud</speaker>
+                  <l>Ils ne disent rien ?</l>
+               </sp>
+
+               <sp n="70">
+                  <speaker>Yniold</speaker>
+                  <l>Non, petit père; ils ne ferment pas les yeux.</l>
+               </sp>
+
+               <sp n="71">
+                  <speaker>Golaud</speaker>
+                  <l>Ils ne s'approchent pas l'un de l'autre ?</l>
+               </sp>
+
+               <sp n="72">
+                  <speaker>Yniold</speaker>
+                  <l>Non, petit père, ils ne ferment jamais les yeux...j'ai terriblement peur !</l>
+               </sp>
+
+               <sp n="73">
+                  <speaker>Golaud</speaker>
+                  <l>De quoi donc as-tu peur ?</l>
+                  <l>Regarde ! Regarde !</l>
+               </sp>
+
+               <sp n="74">
+                  <speaker>Yniold</speaker>
+                  <l>Petit père, laissez-moi descendre !</l>
+               </sp>
+
+               <sp n="75">
+                  <speaker>Golaud</speaker>
+                  <l>Regarde !</l>
+               </sp>
+
+               <sp n="76">
+                  <speaker>Yniold</speaker>
+                  <l>Oh! je vais crier, petit père !</l>
+                  <l>Laissez-moi descendre ! laissez-moi descendre !</l>
+               </sp>
+
+               <sp n="77">
+                  <speaker>Golaud</speaker>
+                  <l>Viens !</l>
+               </sp>
+               <stage>(Ils sortent.)</stage>
+            </div>
+         </div>
+
+         <div type="act" n="4">
+            <head>Acte 4</head>
+
+            <div type="scene" n="1">
+               <head>Scène 1</head>
+               <stage>Un appartement dans le château</stage>
+
+               <stage>(Entrent et se rencontrent Pelléas et Mélisande.)</stage>
+
+               <sp n="1">
+                  <speaker>Pelléas</speaker>
+                  <l>Où vas-tu ? il faut que je te parle ce soir.</l>
+                  <l>Te verrai-je ?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui.</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Pelléas</speaker>
+                  <l>Je sors de la chambre de mon père.</l>
+                  <l>Il va mieux.</l>
+                  <l>Le médecin nous a dit qu'il était sauvé...</l>
+                  <l>Il m'a reconnu.</l>
+                  <l>Il m'a pris la main et il m'a dit de cet air étrange</l>
+                  <l>qu'il a depuis qu'il est malade:</l>
+                  <l>"Est-ce toi, Pelléas?</l>
+                  <l>Tiens, je ne l'avais jamais remarqué,</l>
+                  <l>mais tu as le visage grave</l>
+                  <l>et amical de ceux qui ne vivront pas longtemps...</l>
+                  <l>Il faut voyager; il faut voyager..."</l>
+                  <l>C'est étrange, je vais lui obéir...</l>
+                  <l>Ma mère l'écoutait et pleurait de joie.</l>
+                  <l>Tu ne t'en es pas aperçue?</l>
+                  <l>Toute la maison semble déjà revivre.</l>
+                  <l>On entend respirer, on entend marcher...</l>
+                  <l>Ecoute; j'entends parler derrière cette porte.</l>
+                  <l>Vite, vite, réponds vite, où te verrai-je ?</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Mélisande</speaker>
+                  <l>Où veux-tu?</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Pelléas</speaker>
+                  <l>Dans le parc, près de la fontaine des aveugles ?</l>
+                  <l>Veux-tu ? Viendras-tu ?</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui.</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Pelléas</speaker>
+                  <l>Ce sera le dernier soir; je vais voyager comme mon père l'a dit.</l>
+                  <l>Tu ne me verras plus.</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Mélisande</speaker>
+                  <l>Ne dis pas cela, Pelléas...</l>
+                  <l>Je te verrai toujours; je te regarderai toujours...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Pelléas</speaker>
+                  <l>Tu auras beau regarder...je serai si loin que tu ne pourras plus me voir...</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Qu'est-il arrivé, Pelléas ? Je ne comprends plus ce que tu dis.</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Pelléas</speaker>
+                  <l>Va-t'en, séparons-nous.</l>
+                  <l>J'entends parler derrière cette porte.</l>
+               </sp>
+            </div>
+
+            <div type="scene" n="2">
+               <head>Scène 2</head>
+
+               <stage>(Entre Arkel.)</stage>
+
+               <sp n="1">
+                  <speaker>Arkel</speaker>
+                  <l>Maintenant que le père de Pelléas est sauvé</l>
+                  <l>et que la maladie, la vieille servante de la mort,</l>
+                  <l>a quitté le château, un peu de joie</l>
+                  <l>et un peu de soleil vont enfin rentrer dans la maison...</l>
+                  <l>Il était temps ! Car depuis ta venue,</l>
+                  <l>on n'a vécu ici qu'en chuchotant autour d'une chambre fermée...</l>
+                  <l>Et vraiment, j'avais pitié toi, Mélisande...</l>
+                  <l>Je t'observais, tu étais là, insouciante peut-être,</l>
+                  <l>mais avec l'air étrange et égaré de quelqu'un</l>
+                  <l>qui attendrait toujours un grand malheur, au soleil, dans un beau jardin...</l>
+                  <l>Je ne puis pas expliquer...mais j'étais triste de te voir ainsi,</l>
+                  <l>car tu es trop jeune et trop belle pour vivre déjà jour</l>
+                  <l>et nuit sous l'haleine de la mort...</l>
+                  <l>Mais à présent tout cela va changer.</l>
+                  <l>A mon âge, et c'est peut-être là le fruit le plus sûr de ma vie,</l>
+                  <l>A mon âge, j'ai acquis je ne sais quelle foi à la fidélité des évènements,</l>
+                  <l>et j'ai toujours vu que tout être jeune</l>
+                  <l>et beau créait autour de lui des évènements jeunes, beaux et heureux...</l>
+                  <l>Et c'est toi, maintenant, qui vas ouvrir la porte</l>
+                  <l>A l'ére nouvelle que j'entrevois...</l>
+                  <l>Viens ici; pourquoi restes-tu là sans répondre et sans lever les yeux ?</l>
+                  <l>Je ne t'ai embrassée qu'une seule fois jusqu'ici, le jour de ta venue;</l>
+                  <l>et cependant les vieillards ont besoin quelquefois,</l>
+                  <l>de toucher de leurs lèvres le front d'une femme ou la joue d'un enfant,</l>
+                  <l>pour croire à la fraîcheur de la vie</l>
+                  <l>et éloigner un moment les menaces de la mort.</l>
+                  <l>As-tu peur de mes vieilles lèvres ?</l>
+                  <l>Comme j'avais pitié de toi ces mois-ci...</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Grand-père, je n'étais pas malheureuse.</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Arkel</speaker>
+                  <l>Laisse-moi te regarder ainsi, de tout près, un moment !...</l>
+                  <l>On a tant besoin de beauté aux côtés de la mort...</l>
+               </sp>
+               <stage>(Entre Golaud.)</stage>
+
+               <sp n="4">
+                  <speaker>Golaud</speaker>
+                  <l>Pelléas part ce soir.</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Arkel</speaker>
+                  <l>Tu as du sang sur le front. Qu'as-tu fait?</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Golaud</speaker>
+                  <l>Rien, rien...</l>
+                  <l>J'ai passé au travers d'une haie d'épines.</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Mélisande</speaker>
+                  <l>Baissez un peu la tête, seigneur...Je vais essuyer votre front...</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Golaud</speaker>
+                  <l>Je ne veux pas que tu me touches, entends-tu ?</l>
+                  <l>Va-t'en ! Je ne te parle pas.</l>
+                  <l>Où est mon épée?</l>
+                  <l>Je venais chercher mon épée...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Mélisande</speaker>
+                  <l>Ici, sur le prie-Dieu.</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Golaud</speaker>
+                  <l>Apporte-la.</l>
+                  <stage>(à Arkel)</stage>
+                  <l>On vient encore de trouver un paysan mort de faim, le long de la mer.</l>
+                  <l>On dirait qu'ils tiennent tous à mourir sous nos yeux.</l>
+                  <stage>(à Mélisande)</stage>
+                  <l>Eh bien, mon épée ?</l>
+                  <l>Pourquoi tremblez-vous ainsi ?</l>
+                  <l>Je ne vais pas vous tuer.</l>
+                  <l>Je voulais simplement examiner la lame.</l>
+                  <l>Je n'emploie pas l'épée à ces usages.</l>
+                  <l>Pourquoi m'examinez-vous comme un pauvre ?</l>
+                  <l>Je ne viens pas vous demander l'aumône.</l>
+                  <l>Vous espérez voir quelque chose dans mes yeux sans</l>
+                  <l>que je voie quelque chose dans les vôtres ?</l>
+                  <l>Croyez-vous que je sache quelque chose ?</l>
+                  <l>Voyez-vous ces grands yeux...</l>
+                  <l>On dirait qu'ils sont fiers d'être riches...</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Arkel</speaker>
+                  <l>Je n'y vois qu'une grande innocence...</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Golaud</speaker>
+                  <l>Une grande innocence !</l>
+                  <l>Ils sont plus grands que l'innocence !</l>
+                  <l>Ils sont plus pures que les yeux d'un agneau...</l>
+                  <l>Ils donneraient à Dieu des leçons d'innocence.</l>
+                  <l>Une grande innocence !</l>
+                  <l>Ecoutez; j'en suis si près que je sens la fraîcheur</l>
+                  <l>de leurs cils quand ils clignent;</l>
+                  <l>et cependant, je suis moins loin des grands secrets de l'autre monde</l>
+                  <l>que du plus petit secret de ces yeux !...</l>
+                  <l>Une grande innocence !</l>
+                  <l>Plus que de l'innocence !</l>
+                  <l>On dirait que les anges du ciel y célèbrent sans cesse un baptême.</l>
+                  <l>Je les connais ces yeux !</l>
+                  <l>Je les ai vus à l'oeuvre !</l>
+                  <l>Fermez-les ! fermer-les ! Ou je vais les fermer pour longtemps !</l>
+                  <l>Ne mettez pas ainsi votre main à la gorge;</l>
+                  <l>je dis une chose très simple...</l>
+                  <l>J'ai pas d'arrière-pensée...</l>
+                  <l>Si j'avais une arrière-pensée pourquoi ne la dirais-je pas ?</l>
+                  <l>Ah! ah! ne tâchez pas de fuir !</l>
+                  <l>Ici!</l>
+                  <l>Donnez-moi cette main !</l>
+                  <l>Ah! vos mains sont trop chaudes...</l>
+                  <l>Allez-vous-en ! Votre chair me dégoûte !</l>
+                  <l>Allez-vous-en !</l>
+                  <l>Il ne s'agit plus de fuir à présent !</l>
+                  <stage>(Il la saisit par les cheveux.)</stage>
+                  <l>Vous allez me suivre à genoux !</l>
+                  <l>A genoux devant moi !</l>
+                  <l>Ah! ah! vos longs cheveux servent enfin à quelque chose.</l>
+                  <l>A droite et puis à gauche !</l>
+                  <l>A gauche et puis à droite !</l>
+                  <l>Absalon ! Absalon !</l>
+                  <l>En avant ! en arrière !</l>
+                  <l>Jusqu'à terre ! jusqu'à terre !...</l>
+                  <l>Vous voyez,</l>
+                  <l>vous voyez; je ris déjà comme un vieillard...</l>
+                  <l>Ah! ah! ah!</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Arkel</speaker>
+                  <stage>(accourant)</stage>
+                  <l>Golaud !</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Golaud</speaker>
+                  <stage>(affectant un calme soudain)</stage>
+                  <l>Vous ferez comme il vous plaira, voyez-vous.</l>
+                  <l>Je n'attache aucune importance à cela.</l>
+                  <l>Je suis trop vieux; et puis je ne suis pas un espion.</l>
+                  <l>J'attendrai le hasard; et alors...</l>
+                  <l>Oh! alors !</l>
+                  <l>Simplement parce que c'est l'usage;</l>
+                  <l>Simplement parce que c'est l'usage.</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Arkel</speaker>
+                  <l>Qu'a-t'il donc ?</l>
+                  <l>Il est ivre ?</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <stage>(en larmes)</stage>
+                  <l>Non, non, mais il ne m'aime plus...je ne suis pas heureuse...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Arkel</speaker>
+                  <l>Si j'étais Dieu, j'aurais pitié du coeur des hommes...</l>
+               </sp>
+            </div>
+
+            <div type="scene" n="3">
+               <head>Scène 3</head>
+               <stage>Une fontaine dans le parc</stage>
+
+               <stage>(On découvre le petit Yniold qui cherche à soulever un quartier de
+                  roc.)</stage>
+
+               <sp n="1">
+                  <speaker>Yniold</speaker>
+                  <l>Oh! cette pierre est lourde...</l>
+                  <l>Elle est plus lourde que moi...</l>
+                  <l>Elle est plus lourde que tout le monde.</l>
+                  <l>Elle est plus lourde que tout...</l>
+                  <l>Je vois ma balle d'or entre le rocher et cette méchante pierre,</l>
+                  <l>et je ne puis pas l'atteindre...</l>
+                  <l>Mon petit bras n'est pas assez long et cette pierre</l>
+                  <l>ne veut pas être soulevée...</l>
+                  <l>On dirait qu'elle a des racines dans la terre...</l>
+                  <stage>(On entend au loin les bêlements d'un troupeau.)</stage>
+                  <l>Oh! oh! j'entends pleurer les moutons...</l>
+                  <l>Tiens !</l>
+                  <l>Il n'y a plus de soleil...</l>
+                  <l>Ils arrivent les petits moutons; ils arrivent...</l>
+                  <l>Il y en a ! Il y en a !</l>
+                  <l>Ils ont peur du noir...</l>
+                  <l>Ils se serrent ! ils se serrent !</l>
+                  <l>Ils pleurent et ils vont vite !</l>
+                  <l>Il y en a qui voudraient prendre à droite...</l>
+                  <l>Ils voudraient tous aller à droite...</l>
+                  <l>Ils ne peuvent pas !</l>
+                  <l>Le berger leur jette de la terre...</l>
+                  <l>Ah! ah! Ils vont passer ici...</l>
+                  <l>Je vais les voir de près.</l>
+                  <l>Comme il y en a !</l>
+                  <l>Maintenant ils se taisent tous...</l>
+                  <l>Berger ! Pourquoi ne parlent-ils plus ?</l>
+               </sp>
+
+               <sp n="2">
+                  <speaker>Le berger</speaker>
+
+                  <stage>(qu'on ne voit pas)</stage>
+                  <l>Parce que ce n'est pas le chemin de l'étable...</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Yniold</speaker>
+                  <l>Où vont-ils ?</l>
+                  <l>Berger ? berger ? où vont-ils ?</l>
+                  <l>Il ne m'entend plus. Ils sont déjà trop loin...</l>
+                  <l>Ils ne font plus de bruit...</l>
+                  <l>Ce n'est pas le chemin de l'étable...</l>
+                  <l>Où vont-ils dormir cette nuit ?</l>
+                  <l>Oh! oh! il fait trop noir...</l>
+                  <l>Je vais dire quelque chose à quelqu'un...</l>
+               </sp>
+
+               <stage>(Il sort.)</stage>
+            </div>
+
+            <div type="scene" n="4">
+               <head>Scène 4</head>
+
+               <stage>(Entre Pelléas.)</stage>
+
+               <sp n="1">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est le dernier soir...le dernier soir...</l>
+                  <l>Il faut que tout finisse...</l>
+                  <l>J'ai joué comme un enfant autour d'une chose</l>
+                  <l>que je ne soupçonnais pas...</l>
+                  <l>J'ai joué en rêve, au tour des pièges de la destinée...</l>
+                  <l>Qui est-ce qui m'a réveillé tout à coup ?</l>
+                  <l>Je vais fuir en criant de joie et de douleur comme un aveugle</l>
+                  <l>qui fuirait l'incendie de sa maison.</l>
+                  <l>Je vais lui dire que je vais fuir...</l>
+                  <l>Il est tard;</l>
+                  <l>Elle ne vient pas...</l>
+                  <l>Je ferais mieux de m'en aller sans la revoir...</l>
+                  <l>Il faut que je la regarde bien cette fois-ci...</l>
+                  <l>Il y a des choses que je ne me rappelle plus...</l>
+                  <l>on dirait par moments qu'il y a cent ans que je ne l'ai plus vue...</l>
+                  <l>Et je n'ai pas encore regardé son regard...</l>
+                  <l>Il ne me reste rien si je m'en vais ainsi...</l>
+                  <l>Et tous ces souvenirs...</l>
+                  <l>C'est comme si j'emportais un peu d'eau dans un sac de mousseline.</l>
+                  <l>Il faut que je la voie un dernière fois jusqu'au fond de son coeur...</l>
+                  <l>Il faut que je lui dise tout ce que je n'ai pas dit...</l>
+               </sp>
+               <stage>(Entre Mélisande.)</stage>
+
+               <sp n="2">
+                  <speaker>Mélisande</speaker>
+                  <l>Pelléas !</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Pelléas</speaker>
+                  <l>Mélisande ! Est-ce toi, Mélisande ?</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui.</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Pelléas</speaker>
+                  <l>Viens ici, ne reste pas au bord du clair de lune,</l>
+                  <l>Viens ici, nous avons tant de choses à nous dire...</l>
+                  <l>Viens ici, dans l'ombre du tilleul.</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Mélisande</speaker>
+                  <l>Laissez-moi dans la clarté...</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Pelléas</speaker>
+                  <l>On pourrait nous voir des fenêtres de la tour.</l>
+                  <l>Viens ici, ici, nous n'avons rien à craindre.</l>
+                  <l>Prends garde; on pourrait nous voir !</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Mélisande</speaker>
+                  <l>Je veux qu'on me voie...</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Pelléas</speaker>
+                  <l>Qu'as-tu donc ?</l>
+                  <l>Tu as pu sortir sans qu'on soit aperçu ?</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, votre frère dormait...</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Pelléas</speaker>
+                  <l>Il est tard; dans une heure on fermera les portes.</l>
+                  <l>Il faut prendre garde.</l>
+                  <l>Pourquoi es-tu venue si tard ?</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Mélisande</speaker>
+                  <l>Votre frère avait un mauvais rêve.</l>
+                  <l>Et puis ma robe s'est accrochée aux clous de la porte.</l>
+                  <l>Voyez, elle est déchirée.</l>
+                  <l>J'ai perdu tout ce temps et j'ai couru...</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Pelléas</speaker>
+                  <l>Ma pauvre Mélisande !</l>
+                  <l>J'aurais presque peur de te toucher...</l>
+                  <l>Tu es encore hors d'haleine comme un oiseau pourchassé...</l>
+                  <l>C'est pour moi que tu fais tout cela ?</l>
+                  <l>J'entends battre ton cœur comme si c'était le mien...</l>
+                  <l>Viens ici...plus près de moi...</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi riez-vous ?</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Pelléas</speaker>
+                  <l>Je ne ris pas; ou bien je ris de joie sans le savoir...</l>
+                  <l>Il y aurait plutôt de quoi pleurer...</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <l>Nous sommes venus ici il y a bien longtemps...</l>
+                  <l>Je me rappelle...</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui...il y a de longs mois.</l>
+                  <l>Alors, je ne savais pas...</l>
+                  <l>Sais-tu pourquoi je t'ai demandé de venir ce soir ?</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Non.</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est peut-être la dernière fois que je te vois...</l>
+                  <l>Il faut que je m'en aille pour toujours !</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi dis-tu toujours que tu t'en vas ?</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Pelléas</speaker>
+                  <l>Je dois te dire ce que tu sais déjà !</l>
+                  <l>Tu ne sais pas ce que je vais te dire ?</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Mélisande</speaker>
+                  <l>Mais non, mais non; je ne sais rien.</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Pelléas</speaker>
+                  <l>Tu ne sais pas pourquoi il faut que je m'éloigne...</l>
+                  <l>Tu ne sais pas que c'est parce que...</l>
+                  <stage>(Il l'embrasse brusquement.)</stage>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <stage>(à voix basse)</stage>
+                  <l>Je t'aime aussi...</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! qu'as-tu dit, Mélisande !</l>
+                  <l>Je ne l'ai presque pas entendu !</l>
+                  <l>On a brisé la glace avec des fers rougis !</l>
+                  <l>Tu dis cela d'une voix qui vient du bout du monde !</l>
+                  <l>Je ne t'ai presque pas entendue...</l>
+                  <l>Tu m'aimes ? Tu m'aimes aussi ?</l>
+                  <l>Depuis quand m'aimes-tu ?</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Mélisande</speaker>
+                  <l>Depuis toujours...</l>
+                  <l>Depuis que je t'ai vu...</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Pelléas</speaker>
+                  <l>On dirait que ta voix a passé sur la mer au printemps !</l>
+                  <l>Je ne l'ai jamais entendue jusqu'ici.</l>
+                  <l>On dirait qu'il a plu sur mon coeur !</l>
+                  <l>Tu dis cela si franchement !</l>
+                  <l>Comme un ange qu'on interroge...</l>
+                  <l>Je ne puis pas le croire, Mélisande...</l>
+                  <l>Pourquoi m'aimerais-tu ?</l>
+                  <l>Mais pourquoi m'aimes-tu ?</l>
+                  <l>Est-ce vrai ce que tu dis ?</l>
+                  <l>Tu ne me trompes pas ?</l>
+                  <l>Tu ne mens pas un peu, pour me faire sourire ?</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, je ne mens jamais; je ne mens qu'à ton frère...</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! comme tu dis cela !</l>
+                  <l>Ta voix ! ta voix...</l>
+                  <l>elle est plus fraîche et plus franche que l'eau !</l>
+                  <l>On dirait de l'eau pure sur mes lèvres...</l>
+                  <l>On dirait de l'eau pure sur mes mains...</l>
+                  <l>Donne-moi, donne-moi tes mains.</l>
+                  <l>Oh! tes mains sont petites !</l>
+                  <l>Je ne savais pas que tu étais si belle !</l>
+                  <l>Je n'avais jamais rien vu d'aussi beau avant toi...</l>
+                  <l>J'étais inquiet, je cherchais partout dans la maison...</l>
+                  <l>Je cherchais partout dans la campagne,</l>
+                  <l>et je ne trouvais pas la beauté...</l>
+                  <l>Et maintenant je t'ai trouvée...</l>
+                  <l>Je l'ai trouvée...je ne crois pas qu'il y</l>
+                  <l>ait sur la terre une femme plus belle !</l>
+                  <l>Où es-tu ?</l>
+                  <l>Je ne t'entends plus respirer...</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Mélisande</speaker>
+                  <l>C'est que je te regarde...</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Pelléas</speaker>
+                  <l>Pourquoi me regardes-tu si gravement ?</l>
+                  <l>Nous sommes déjà dans l'ombre.</l>
+                  <l>Il fait trop noir sous cet arbre.</l>
+                  <l>Viens, dans la lumière.</l>
+                  <l>Nous ne pouvons pas voir combien nous sommes heureux.</l>
+                  <l>Viens, viens; il nous reste si peu de temps...</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, restons ici...</l>
+                  <l>Je suis plus près de toi dans l'obscurité...</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Pelléas</speaker>
+                  <l>Où sont tes yeux ?</l>
+                  <l>Tu ne vas pas me fuir ?</l>
+                  <l>Tu ne songes pas à moi en ce moment...</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Mélisande</speaker>
+                  <l>Mais si, je ne songe qu'à toi...</l>
+               </sp>
+               <sp n="35">
+                  <speaker>Pelléas</speaker>
+                  <l>Tu regardais ailleurs...</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Mélisande</speaker>
+                  <l>Je te voyais ailleurs...</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Pelléas</speaker>
+                  <l>Tu es distraite...</l>
+                  <l>Qu'as-tu donc ?</l>
+                  <l>Tu ne me sembles pas heureuse...</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Mélisande</speaker>
+                  <l>Si, si, je suis bien heureuse, mais je suis triste...</l>
+               </sp>
+               <sp n="39">
+                  <speaker>Pelléas</speaker>
+                  <l>Quel est ce bruit ?</l>
+                  <stage>(Pause.)</stage>
+                  <l>On ferme les portes !</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, on a fermé les portes...</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Pelléas</speaker>
+                  <l>Nous ne pouvons plus rentrer ?</l>
+                  <l>Entends-tu les verrons ?</l>
+                  <l>Ecoute !</l>
+                  <l>Ecoute...</l>
+                  <l>Les grandes chaînes !</l>
+                  <l>Il est trop tard, il est trop tard !</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Mélisande</speaker>
+                  <l>Tant mieux ! tant mieux !</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Pelléas</speaker>
+                  <l>Tu ? Voilà, voilà !</l>
+                  <l>Ce n'est plus nous qui le voulons !</l>
+                  <l>Tout est perdu, tout est sauvé !</l>
+                  <l>Tout est sauvé ce soir !</l>
+                  <l>Viens ! viens...mon coeur bat comme un fou jusqu'au fond de ma gorge...</l>
+                  <stage>(Il l'enlace.)</stage>
+                  <l>Ecoute ! mon coeur est sur le point de m'étrangler...</l>
+                  <l>viens !</l>
+                  <l>Ah! qu'il fait beau dans les ténèbres...</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Mélisande</speaker>
+                  <l>Il y a quelqu'un derrière-nous...</l>
+               </sp>
+
+               <sp n="45">
+                  <speaker>Pelléas</speaker>
+                  <l>Je ne vois personne.</l>
+               </sp>
+
+               <sp n="46">
+                  <speaker>Mélisande</speaker>
+                  <l>J'ai entendu du bruit...</l>
+               </sp>
+
+               <sp n="47">
+                  <speaker>Pelléas</speaker>
+                  <l>Je n'entends que ton coeur dans l'obscurité...</l>
+               </sp>
+
+               <sp n="48">
+                  <speaker>Mélisande</speaker>
+                  <l>J'ai entendu craquer les feuilles mortes...</l>
+               </sp>
+               <sp n="49">
+                  <speaker>Pelléas</speaker>
+                  <l>C'est le vent qui s'est tu tout à coup...</l>
+                  <l>Il est tombé pendant que nous nous embrassions.</l>
+               </sp>
+
+               <sp n="50">
+                  <speaker>Mélisande</speaker>
+                  <l>Comme nos ombres sont grandes ce soir !</l>
+               </sp>
+
+               <sp n="51">
+                  <speaker>Pelléas</speaker>
+                  <l>Elles s'enlacent jusqu'au fond du jardin !</l>
+                  <l>Ah! qu'elles s'embrassent loin de nous !</l>
+                  <l>Regarde ! Regarde !</l>
+               </sp>
+
+               <sp n="52">
+                  <speaker>Mélisande</speaker>
+                  <stage>(d'une voix étouffée)</stage>
+                  <l>Ah! Il est derrière un arbre !</l>
+               </sp>
+
+               <sp n="53">
+                  <speaker>Pelléas</speaker>
+                  <l>Qui ?</l>
+               </sp>
+
+               <sp n="54">
+                  <speaker>Mélisande</speaker>
+                  <l>Golaud !</l>
+               </sp>
+
+               <sp n="55">
+                  <speaker>Pelléas</speaker>
+                  <l>Golaud ? Où donc ? Je ne vois rien !</l>
+               </sp>
+
+               <sp n="56">
+                  <speaker>Mélisande</speaker>
+                  <l>Là...au bout de nos ombres...</l>
+               </sp>
+
+               <sp n="57">
+                  <speaker>Pelléas</speaker>
+                  <l>Oui, oui; je l'ai vu...</l>
+                  <l>Ne nous retournons pas brusquement.</l>
+               </sp>
+
+               <sp n="58">
+                  <speaker>Mélisande</speaker>
+                  <l>Il a son épée...</l>
+               </sp>
+
+               <sp n="59">
+                  <speaker>Pelléas</speaker>
+                  <l>Je n'ai pas la mienne...</l>
+               </sp>
+
+               <sp n="60">
+                  <speaker>Mélisande</speaker>
+                  <l>Il a vu que nous nous embrassions...</l>
+               </sp>
+
+               <sp n="61">
+                  <speaker>Pelléas</speaker>
+                  <l>Il ne sait pas que nous l'avons vu...</l>
+                  <l>Ne bouge pas; ne tourne pas la tête.</l>
+                  <l>Il se précipiterait...</l>
+                  <l>Il nous observe...</l>
+                  <l>Il est encore immobile...</l>
+                  <l>Va-t'en, va-t'en, tout de suite par ici...</l>
+                  <l>Je l'attendrai...je l'arrâterai...</l>
+               </sp>
+
+               <sp n="62">
+                  <speaker>Mélisande</speaker>
+                  <l>Non...</l>
+               </sp>
+
+               <sp n="63">
+                  <speaker>Pelléas</speaker>
+                  <l>...va-t'en,...</l>
+               </sp>
+
+               <sp n="64">
+                  <speaker>Mélisande</speaker>
+                  <l>...non!</l>
+               </sp>
+
+               <sp n="65">
+                  <speaker>Pelléas</speaker>
+                  <l>Il a tout vu...</l>
+                  <l>Il nous tuera !</l>
+               </sp>
+
+               <sp n="66">
+                  <speaker>Mélisande</speaker>
+                  <l>Tant mieux ! tant mieux !</l>
+               </sp>
+
+               <sp n="67">
+                  <speaker>Pelléas</speaker>
+                  <l>Il vient !</l>
+                  <l>Ta bouche ! Ta bouche !</l>
+               </sp>
+
+               <sp n="68">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui! oui! oui!</l>
+               </sp>
+
+               <stage>(Ils s'embrassent éperduement.)</stage>
+
+               <sp n="69">
+                  <speaker>Pelléas</speaker>
+                  <l>Oh! oh! toutes les étoiles tombent !</l>
+               </sp>
+
+               <sp n="70">
+                  <speaker>Mélisande</speaker>
+                  <l>Sur moi aussi ! sur moi aussi !</l>
+               </sp>
+
+               <sp n="71">
+                  <speaker>Pelléas</speaker>
+                  <l>Encore ! Encore ! donne donne donne !</l>
+               </sp>
+
+               <sp n="72">
+                  <speaker>Mélisande</speaker>
+                  <l>Toute ! toute ! toute !</l>
+                  <stage>(Golaud se précipite sur eux l'épée à la main et frappe Pelléas qui tombe
+                     au bord de la fontaine. Mélisande fuit épouvantée.)</stage>
+                  <l>Oh! oh!</l>
+                  <l>Je n'ai pas de courage !</l>
+                  <l>Je n'ai pas de courage...</l>
+                  <l>Ah!</l>
+                  <stage>(Golaud la poursuit à travers le bois, en silence.)</stage>
+               </sp>
+            </div>
+         </div>
+
+         <div type="act" n="5">
+            <head>Acte 5</head>
+
+            <div type="scene" n="1">
+               <head>Scène 1</head>
+               <stage>Une chambre dans le château</stage>
+
+               <stage>(On découvre Arkel, Golaud et le Médecin dans un coin de la chambre; Mélisande
+                  est étendue sur le lit.)</stage>
+
+               <sp n="1">
+                  <speaker>Le médecin</speaker>
+                  <l>Ce n'est pas de cette petite blessure qu'elle peut mourir;</l>
+                  <l>un oiseau n'en serait pas mort...ce n'est donc pas vous qui l'avez tuée,</l>
+                  <l>mon bon seigneur; ne vous désolez ainsi...</l>
+                  <l>Et puis il n'est pas dit que nous ne la sauverons pas...</l>
+               </sp>
+               <sp n="2">
+                  <l>Arkel</l>
+                  <l>Non, non; il me semble que nous nous taisons</l>
+                  <l>trop malgré nous dans la chambre, ce n'est pas un bon signe...</l>
+                  <l>regardez comme elle dort...lentement, lentement...</l>
+                  <l>on dirait que son âme a froid pour toujours...</l>
+               </sp>
+
+               <sp n="3">
+                  <speaker>Golaud</speaker>
+                  <l>J'ai tué sans raison !</l>
+                  <l>Est-ce que ce n'est pas à faire pleurer les pierres !</l>
+                  <l>Ils s'étaient embrassés comme des petits enfants...</l>
+                  <l>Ils étaient frère et soeur...</l>
+                  <l>Et moi, moi tout de suite !</l>
+                  <l>Je l'ai fait malgré moi, voyez-vous...</l>
+                  <l>Je l'ai fait malgré moi...</l>
+               </sp>
+
+               <sp n="4">
+                  <speaker>Le médecin</speaker>
+                  <l>Attention; je crois qu'elle s'éveille...</l>
+               </sp>
+
+               <sp n="5">
+                  <speaker>Mélisande</speaker>
+                  <l>Ouvrez la fenêtre...ouvrez la fenêtre...</l>
+               </sp>
+
+               <sp n="6">
+                  <speaker>Arkel</speaker>
+                  <l>Veux-tu que j'ouvre celle-ci, Mélisande ?</l>
+               </sp>
+
+               <sp n="7">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, la grande fenêtre...c'est pour voir...</l>
+               </sp>
+
+               <sp n="8">
+                  <speaker>Arkel</speaker>
+                  <l>Est-ce que l'air de la mer n'est pas trop froid ce soir ?</l>
+               </sp>
+
+               <sp n="9">
+                  <speaker>Le médecin</speaker>
+                  <l>Faites, faites...</l>
+               </sp>
+
+               <sp n="10">
+                  <speaker>Mélisande</speaker>
+                  <l>Merci...</l>
+                  <l>Est-ce le soleil qui se couche ?</l>
+               </sp>
+
+               <sp n="11">
+                  <speaker>Arkel</speaker>
+                  <l>Oui; c'est le soleil qui se couche sur la mer; il est tard.</l>
+                  <l>Comment te trouves-tu, Mélisande ?</l>
+               </sp>
+
+               <sp n="12">
+                  <speaker>Mélisande</speaker>
+                  <l>Bien, bien,</l>
+                  <l>Pourquoi demandez-vous cela ?</l>
+                  <l>Je n'ai jamais été mieux portante...</l>
+                  <l>Il me semble cependant que je sais quelque chose...</l>
+               </sp>
+
+               <sp n="13">
+                  <speaker>Arkel</speaker>
+                  <l>Que dis-tu?</l>
+                  <l>Je ne te comprends pas...</l>
+               </sp>
+
+               <sp n="14">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne comprends pas non plus tout ce que je dis, voyez-vous...</l>
+                  <l>Je ne sais pas ce que je dis...</l>
+                  <l>Je ne sais pas ce que je sais...</l>
+                  <l>Je ne dis plus ce que je veux...</l>
+               </sp>
+
+               <sp n="15">
+                  <speaker>Arkel</speaker>
+                  <l>Mais si, mais si,</l>
+                  <l>Je suis tout heureux de t'entendre parler ainsi;</l>
+                  <l>tu as eu un de délire ces jours-ci, et l'on ne te comprenait plus...</l>
+                  <l>mais maintenant, tout cela est bien loin !</l>
+               </sp>
+
+               <sp n="16">
+                  <speaker>Mélisande</speaker>
+                  <l>Je ne sais pas...</l>
+                  <l>Etes-vous seul dans la chambre, grand-père ?</l>
+               </sp>
+
+               <sp n="17">
+                  <speaker>Arkel</speaker>
+                  <l>Non, il y a encore le médecin qui t'a guérie...</l>
+               </sp>
+
+               <sp n="18">
+                  <speaker>Mélisande</speaker>
+                  <l>Ah!</l>
+               </sp>
+
+               <sp n="19">
+                  <speaker>Arkel</speaker>
+                  <l>Et puis il y a encore quelqu'un...</l>
+               </sp>
+
+               <sp n="20">
+                  <speaker>Mélisande</speaker>
+                  <l>Qui est-ce ?</l>
+               </sp>
+
+               <sp n="21">
+                  <speaker>Arkel</speaker>
+                  <l>C'est...il ne faut pas t'effrayer.</l>
+                  <l>Il ne te veut pas le moindre mal, sois-en sûre...</l>
+                  <l>Si tu as peur, il s'en ira...</l>
+                  <l>Il est très malheureux...</l>
+               </sp>
+
+               <sp n="22">
+                  <speaker>Mélisande</speaker>
+                  <l>Qui est-ce ?</l>
+               </sp>
+
+               <sp n="23">
+                  <speaker>Arkel</speaker>
+                  <l>C'est...c'est ton mari...</l>
+                  <l>C'est Golaud...</l>
+               </sp>
+
+               <sp n="24">
+                  <speaker>Mélisande</speaker>
+                  <l>Golaud est ici ?</l>
+                  <l>Pourquoi ne vient-il pas près de moi ?</l>
+               </sp>
+
+               <sp n="25">
+                  <speaker>Golaud</speaker>
+                  <stage>(se traînant vers le lit)</stage>
+                  <l>Mélisande...Mélisande...</l>
+               </sp>
+
+               <sp n="26">
+                  <speaker>Mélisande</speaker>
+                  <l>Est-ce vous, Golaud ?</l>
+                  <l>Je ne vous reconnaissais presque plus...</l>
+                  <l>C'est que j'ai le soleil du soir dans les yeux...</l>
+                  <l>Pourquoi regardez-vous les murs ?</l>
+                  <l>Vous avez maigri et vieilli.</l>
+                  <l>Y-a-t'il longtemps que nous nous sommes vus ?</l>
+               </sp>
+
+               <sp n="27">
+                  <speaker>Golaud</speaker>
+                  <stage>(à Arkel et au médecin)</stage>
+                  <l>Voulez-vous vous éloigner un instant, mes pauvres amis...</l>
+                  <l>Je laisserai la porte grande ouverte...un instant seulement...</l>
+                  <l>Je voudrais lui dire quelque chose,</l>
+                  <l>Sans cela je ne pourrais pas mourir...</l>
+                  <l>Voulez-vous ? vous pouvez revenir tout de suite...</l>
+                  <l>Ne me refusez pas cela...</l>
+                  <l>Je suis un malheureux.</l>
+                  <stage>(Sortant Arkel et le médecin.)</stage>
+                  <stage>(avec une grande émotion)</stage>
+                  <l>Mélisande, as-tu pitié de moi comme j'ai pitié de toi ?</l>
+                  <l>Mélisande...</l>
+                  <l>Me pardonnes-tu, Mélisande ?</l>
+               </sp>
+
+               <sp n="28">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, oui, je te pardonne...que faut-il pardonner ?</l>
+               </sp>
+
+               <sp n="29">
+                  <speaker>Golaud</speaker>
+                  <l>Je t'ai fait tant de mal, Mélisande...</l>
+                  <l>Je ne puis pas te dire le mal que je t'ai fait...</l>
+                  <l>Mais je le vois, je le vois si clairement aujourd'hui...</l>
+                  <l>depuis le premier jour...</l>
+                  <l>Et tout est de ma faute, tout ce qui est arrivé, tout ce qui va arriver...</l>
+                  <l>Si je pouvais le dire, tu verrais comme je le vois !</l>
+                  <l>Je vois tout, je vois tout !</l>
+                  <l>Mais je t'aime tant ! Je t'aime tant !</l>
+                  <l>Mais maintenant, quelqu'un va mourir...</l>
+                  <l>C'est moi qui vais mourir...</l>
+                  <l>Et je voudrais savoir...</l>
+                  <l>Je voudrais te demander...</l>
+                  <l>Tu ne m'en voudras pas ?</l>
+                  <l>Il faut dire la vérité à quelqu'un qui va mourir...</l>
+                  <l>Il faut qu'il sache la vérité,</l>
+                  <l>Sans cela il ne pourrait pas dormir...</l>
+                  <l>Me jures-tu de dire la vérité ?</l>
+               </sp>
+
+               <sp n="30">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui.</l>
+               </sp>
+
+               <sp n="31">
+                  <speaker>Golaud</speaker>
+                  <l>As-tu aimé Pelléas ?</l>
+               </sp>
+
+               <sp n="32">
+                  <speaker>Mélisande</speaker>
+                  <l>Mais oui,</l>
+                  <l>Je l'ai aimé.</l>
+                  <l>Où est-il?</l>
+               </sp>
+
+               <sp n="33">
+                  <speaker>Golaud</speaker>
+                  <l>Tu ne me comprends pas</l>
+                  <l>Tu ne veux pas me comprendre ?</l>
+                  <l>Il me semble...</l>
+                  <l>Il me semble...</l>
+                  <l>Eh bien, voici.</l>
+                  <l>Je te demande si tu l'as aimé d'un amour défendu ?</l>
+                  <l>As-tu ? Avez-vous été coupables ?</l>
+                  <l>Dis, dis ? oui, oui, oui.</l>
+               </sp>
+
+               <sp n="34">
+                  <speaker>Mélisande</speaker>
+                  <l>Non, non, nous n'avons pas été coupables.</l>
+                  <l>Pourquoi demandez-vous cela ?</l>
+               </sp>
+
+               <sp n="35">
+                  <speaker>Golaud</speaker>
+                  <l>Mélisande ! Dis-moi la vérité pour l'amour de Dieu !</l>
+               </sp>
+
+               <sp n="36">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi n'ai-je pas dit la vérité ?</l>
+               </sp>
+
+               <sp n="37">
+                  <speaker>Golaud</speaker>
+                  <l>Ne mens plus ainsi, au moment de mourir !</l>
+               </sp>
+
+               <sp n="38">
+                  <speaker>Mélisande</speaker>
+                  <l>Qui est-ce qui va mourir ? Est-ce moi ?</l>
+               </sp>
+
+               <sp n="39">
+                  <speaker>Golaud</speaker>
+                  <l>Toi, toi, et moi, moi aussi, après toi !</l>
+                  <l>Et il nous faut la vérité...</l>
+                  <l>Il nous faut enfin la vérité, entends-tu ?</l>
+                  <l>Dis-moi tout ! Dis-moi tout</l>
+                  <l>Je te pardonne tout !</l>
+               </sp>
+
+               <sp n="40">
+                  <speaker>Mélisande</speaker>
+                  <l>Pourquoi vais-je mourir ?</l>
+                  <l>Je ne le savais pas.</l>
+               </sp>
+
+               <sp n="41">
+                  <speaker>Golaud</speaker>
+                  <l>Tu le sais maintenant...</l>
+                  <l>Il est temps !</l>
+                  <l>Vite ! Vite !</l>
+                  <l>La vérité ! la vérité...</l>
+               </sp>
+
+               <sp n="42">
+                  <speaker>Mélisande</speaker>
+                  <l>La vérité...la vérité...</l>
+               </sp>
+
+               <sp n="43">
+                  <speaker>Golaud</speaker>
+                  <l>Où es-tu ? Mélisande ! où es-tu ?</l>
+                  <l>Ce n'est pas naturel !</l>
+                  <l>Mélisande ! où es-tu ?</l>
+                  <stage>(apercevant Arkel et le médecin à la porte de la chambre)</stage>
+                  <l>Oui, oui, vous pouvez rentrer...</l>
+                  <l>Je ne sais rien, c'est inutile...elle est déjà trop loin de nous...</l>
+                  <l>Je ne saurai jamais !</l>
+                  <l>Je vais mourir ici comme un aveugle !</l>
+               </sp>
+
+               <sp n="44">
+                  <speaker>Arkel</speaker>
+                  <l>Qu'avez-vous fait ? Vous allez la tuer...</l>
+               </sp>
+
+               <sp n="45">
+                  <speaker>Golaud</speaker>
+                  <l>Je l'ai déjà tuée...</l>
+               </sp>
+
+               <sp n="46">
+                  <speaker>Arkel</speaker>
+                  <l>Mélisande !</l>
+               </sp>
+
+               <sp n="47">
+                  <speaker>Mélisande</speaker>
+                  <l>Est-ce vous, grand-père ?</l>
+               </sp>
+
+               <sp n="48">
+                  <speaker>Arkel</speaker>
+                  <l>Oui, ma fille...</l>
+                  <l>Que veux-tu que je fasse ?</l>
+               </sp>
+
+               <sp n="49">
+                  <speaker>Mélisande</speaker>
+                  <l>Est-il vrai que l'hiver commence ?</l>
+               </sp>
+
+               <sp n="50">
+                  <speaker>Arkel</speaker>
+                  <l>Pourquoi demandes-tu cela?</l>
+               </sp>
+
+               <sp n="51">
+                  <speaker>Mélisande</speaker>
+                  <l>C'est qu'il fait froid et qu'il n'y a plus de feuilles...</l>
+               </sp>
+
+               <sp n="52">
+                  <speaker>Arkel</speaker>
+                  <l>Tu as froid ?</l>
+                  <l>Veux-tu qu'on ferme les fenêtres ?</l>
+               </sp>
+
+               <sp n="53">
+                  <speaker>Mélisande</speaker>
+                  <l>Non...jusqu'à ce que le soleil soit au fond de la mer,</l>
+                  <l>Il descend lentement; alors c'est l'hiver qui commence ?</l>
+               </sp>
+
+               <sp n="54">
+                  <speaker>Arkel</speaker>
+                  <l>Tu n'aimes pas l'hiver ?</l>
+               </sp>
+
+               <sp n="55">
+                  <speaker>Mélisande</speaker>
+                  <l>Oh! non. J'ai peur du froid! J'ai si peur des grands froids...</l>
+               </sp>
+
+               <sp n="56">
+                  <speaker>Arkel</speaker>
+                  <l>Tu sens-tu mieux ?</l>
+               </sp>
+
+               <sp n="57">
+                  <speaker>Mélisande</speaker>
+                  <l>Oui, oui; je n'ai plus toutes ces inquiétudes.</l>
+               </sp>
+
+               <sp n="58">
+                  <speaker>Arkel</speaker>
+                  <l>Veux-tu voir ton enfant ?</l>
+               </sp>
+
+               <sp n="59">
+                  <speaker>Mélisande</speaker>
+                  <l>Quel enfant?</l>
+               </sp>
+
+               <sp n="60">
+                  <speaker>Arkel</speaker>
+                  <l>Ton enfant.</l>
+                  <l>Ta petite fille...</l>
+               </sp>
+
+               <sp n="61">
+                  <speaker>Mélisande</speaker>
+                  <l>Où est-elle ?</l>
+               </sp>
+
+               <sp n="62">
+                  <speaker>Arkel</speaker>
+                  <l>Ici...</l>
+               </sp>
+
+               <sp n="63">
+                  <speaker>Mélisande</speaker>
+                  <l>C'est étrange...je ne peux pas lever les bras pour la prendre...</l>
+               </sp>
+
+               <sp n="64">
+                  <speaker>Arkel</speaker>
+                  <l>C'est que tu es encore très faible</l>
+                  <l>Je la tiendrai moi-même; regarde...</l>
+               </sp>
+
+               <sp n="65">
+                  <speaker>Mélisande</speaker>
+                  <l>Elle ne rit pas...</l>
+                  <l>Elle est petite...</l>
+                  <l>Elle va pleurer aussi...</l>
+                  <l>J'ai pitié d'elle...</l>
+               </sp>
+               <stage>(La chambre est envahie peu à peu par les servantes du château, qui se rangent
+                  en silence le long des murs et attendent.)</stage>
+
+               <sp n="66">
+                  <speaker>Golaud</speaker>
+                  <l>Qu'y-a-t-il ? Qu'est-ce que toutes ces femmes viennent faire ici ?</l>
+               </sp>
+
+               <sp n="67">
+                  <speaker>Le médecin</speaker>
+                  <l>Ce sont les servantes...</l>
+               </sp>
+
+               <sp n="68">
+                  <speaker>Arkel</speaker>
+                  <l>Qui est-ce qui les a appelées ?</l>
+               </sp>
+
+               <sp n="69">
+                  <speaker>Le médecin</speaker>
+                  <l>Ce n'est pas moi...</l>
+               </sp>
+
+               <sp n="70">
+                  <speaker>Golaud</speaker>
+                  <l>Que venez-vous faire ici ?</l>
+                  <l>Personne ne vous a demandées...</l>
+                  <l>Que venez-vous faire ici ?</l>
+                  <l>Mais qu'est-ce que c'est donc?</l>
+                  <l>Répondez!</l>
+               </sp>
+               <stage>(Les servantes ne répondent pas.)</stage>
+
+               <sp n="71">
+                  <speaker>Arkel</speaker>
+                  <l>Ne parlez pas trop fort...</l>
+                  <l>Elle va dormir; elle a fermé les yeux...</l>
+               </sp>
+
+               <sp n="72">
+                  <speaker>Golaud</speaker>
+                  <l>Ce n'est pas ?</l>
+               </sp>
+
+               <sp n="73">
+                  <speaker>Le médecin</speaker>
+                  <l>Non, non; voyez; elle respire...</l>
+               </sp>
+
+               <sp n="74">
+                  <speaker>Arkel</speaker>
+                  <l>Ses yeux sont pleins de larmes.</l>
+                  <l>Maintenant c'est son âme qui pleure...</l>
+                  <l>Pourquoi étend-elle ainsi les bras?</l>
+                  <l>Que veut-elle ?</l>
+               </sp>
+
+               <sp n="75">
+                  <speaker>Le médecin</speaker>
+                  <l>C'est vers l'enfant sans doute.</l>
+                  <l>C'est la lutte de la mère contre...</l>
+               </sp>
+
+               <sp n="76">
+                  <speaker>Golaud</speaker>
+                  <l>En ce moment? En ce moment ?</l>
+                  <l>Il faut le dire, dites! Dites...</l>
+               </sp>
+
+               <sp n="77">
+                  <speaker>Le médecin</speaker>
+                  <l>Peut-être...</l>
+               </sp>
+
+               <sp n="78">
+                  <speaker>Golaud</speaker>
+                  <l>Tout de suite ?</l>
+                  <l>Oh! oh! Il faut que je lui dise...</l>
+                  <l>Mélisande ! Mélisande !</l>
+                  <l>Laissez-moi seul !</l>
+                  <l>Laissez-moi seul avec elle !</l>
+               </sp>
+
+               <sp n="79">
+                  <speaker>Arkel</speaker>
+                  <l>Non, non, n'approchez pas...</l>
+                  <l>Ne la troublez pas...</l>
+                  <l>Ne lui parlez plus...</l>
+                  <l>Vous ne savez pas ce que c'est que l'âme...</l>
+               </sp>
+
+               <sp n="80">
+                  <speaker>Golaud</speaker>
+                  <l>Ce n'est pas ma faute...</l>
+                  <l>Ce n'est pas ma faute !</l>
+               </sp>
+
+               <sp n="81">
+                  <speaker>Arkel</speaker>
+                  <l>Attention...Attention...</l>
+                  <l>Il faut parler à voix basse, maintenant.</l>
+                  <l>Il ne faut plus l'inquiéter...</l>
+                  <l>L'âme humaine est très silencieuse...</l>
+                  <l>L'âme humaine aime à s'en aller seule...</l>
+                  <l>Elle souffre si timidement.</l>
+                  <l>Mais la tristesse, Golaud...</l>
+                  <l>Mais la tristesse de tout ce que l'on voit...</l>
+                  <stage>(En ce moment toutes les servantes tombent subitement à genoux au fond de
+                     la chambre.)</stage>
+                  <stage>(se retournant)</stage>
+                  <l>Qu'y-a-t'il ?</l>
+               </sp>
+
+               <sp n="82">
+                  <speaker>Le médecin</speaker>
+                  <l>(s'approchant du lit et tâtant le corps)</l>
+                  <l>Elles ont raison...</l>
+               </sp>
+
+               <sp n="83">
+                  <speaker>Arkel</speaker>
+                  <l>Je n'ai rien vu. Etes-vous sûr ?</l>
+               </sp>
+
+               <sp n="84">
+                  <speaker>Le médecin</speaker>
+                  <l>Oui, oui.</l>
+               </sp>
+
+               <sp n="85">
+                  <speaker>Arkel</speaker>
+                  <l>Je n'ai rien entendu...</l>
+                  <l>Si vite, si vite...</l>
+                  <l>Elle s'en va sans rien dire...</l>
+                  <stage>(Golaud sanglotant.)</stage>
+                  <stage>(dans une sonorité douce et voilée la fin et toujours très calme)</stage>
+                  <l>Ne restez pas ici, Golaud...</l>
+                  <l>Il lui faut le silence, maintenant...</l>
+                  <l>Venez, venez...</l>
+                  <l>C'est terrible, mais ce n'est pas votre faute...</l>
+                  <l>c'était un petit être si tranquille, si timide et si silencieux...</l>
+                  <l>C'était un pauvre petit être mystérieux comme tout le monde...</l>
+                  <l>Elle est là comme si elle était la grande sœur de son enfant...</l>
+                  <l>Venez...</l>
+                  <l>Il ne faut pas que l'enfant reste ici dans cette chambre...</l>
+                  <l>Il faut qu'il vive, maintenant, à sa place</l>
+                  <l>C'est au tour de la pauvre petite.</l>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
