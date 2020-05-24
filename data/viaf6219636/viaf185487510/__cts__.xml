@@ -1,0 +1,10 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:libOp:viaf6219636"
+    urn="urn:cts:libOp:viaf6219636.viaf185487510" xml:lang="fre">
+    <ti:title xml:lang="fre">Pelléas et Mélisande</ti:title>
+    <ti:edition workUrn="urn:cts:libOp:viaf6219636.viaf185487510"
+        urn="urn:cts:libOp:viaf6219636.viaf185487510.TNAH2020-fre1">
+        <ti:label xml:lang="fre">Pelléas et Mélisande, Claude Debussy (TNAH2020)</ti:label>
+        <ti:description xml:lang="fre">Balisage sémantique de Pelléas et Mélisande par la promo TNAH
+            2020 </ti:description>
+    </ti:edition>
+</ti:work>
